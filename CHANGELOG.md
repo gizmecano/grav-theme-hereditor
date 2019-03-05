@@ -1,3 +1,10 @@
+# v1.3.1-alpha
+## 03/05/2019
+
+1. [](#bugfix)
+    * Escaping `#` in `jQuery` selection for click event (cf. https://github.com/getgrav/grav-theme-mediator/pull/18)
+    * (This version is not a _true release_ but a _simple tag_, that is why an `alpha` suffix is used, cf. https://github.com/gizmecano/grav-theme-hereditor/pull/1)
+
 # v1.3.0
 ## 07/14/2016
 
@@ -6,7 +13,7 @@
 1. [](#bugfix)
     * Fix setting the page language in the html tag
     * Fix pagination
-    
+
 # v1.2.0
 ## 01/06/2016
 
