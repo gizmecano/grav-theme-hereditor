@@ -1,10 +1,24 @@
+# v1.4.1-alpha
+## 02/11/2020
+
+1. [](#improved)
+    * Fixed logo link to use home URL
+1. [](#bugfix)
+    * Move deferred javascript assets
+
 # v1.4.0
 ## 03/21/2019
 
 1. [](#new)
     * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
     * Implement assets rendering using **Deferred Block** Twig extension 
-    
+
+# v1.3.1-alpha
+## 03/05/2019
+
+1. [](#bugfix)
+    * Escaping `#` in `jQuery` selection for click event
+
 # v1.3.0
 ## 07/14/2016
 
@@ -13,15 +27,15 @@
 1. [](#bugfix)
     * Fix setting the page language in the html tag
     * Fix pagination
-    
+
 # v1.2.0
 ## 01/06/2016
 
 1. [](#improved)
     * Dropped an extraneous debug statement
 1. [](#bugfix)
-	* Fixed RSS link
-	* Fix tag links on a root domain site
+    * Fixed RSS link
+    * Fix tag links on a root domain site
 
 # v1.1.0
 ## 08/25/2015
@@ -39,13 +53,13 @@
 ## 02/19/2015
 
 2. [](#improved)
-	* Updated README
-	* Fixed feed URL on homepage
-	* Added demo link
+    * Updated README
+    * Fixed feed URL on homepage
+    * Added demo link
     * Implemented new `param_sep` variable from Grav 0.9.18
 
 # v1.0.1
 ## 02/10/2015
 
 1. [](#new)
-    * ChangeLog started...
+    * ChangeLog started
