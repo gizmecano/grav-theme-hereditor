@@ -1,18 +1,16 @@
-name: Mediator
-version: 1.4.0
-description: "Mediator theme by Dirk Fabisch ported to **Grav**"
+name: Hereditor
+version: 1.5.0-alpha
+description: "Hereditor theme"
 icon: bullseye
 author:
-  name: Team Grav
-  email: devs@getgrav.org
-  url: http://getgrav.org
-homepage: https://github.com/getgrav/grav-theme-mediator
-demo: http://demo.getgrav.org/mediator-skeleton
-keywords: mediator, theme, modern, fast, responsive, blog
-bugs: https://github.com/getgrav/grav-theme-mediator/issues
+  name: P. Mergey
+  email: gizmecano+hereditor@gmail.com
+  url: https://github.com/gizmecano/
+homepage: https://github.com/gizmecano/grav-theme-hereditor
+keywords: theme, modern, fast, responsive, blog
+bugs: https://github.com/gizmecano/grav-theme-hereditor/issues
 license: MIT
 dependencies:
   - { name: grav, version: '>=1.5.10' }
-
 form:
   validation: loose

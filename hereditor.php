@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class Mediator extends Theme
+class Hereditor extends Theme
 {
 
 }
