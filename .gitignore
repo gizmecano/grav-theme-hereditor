@@ -1,2 +1,6 @@
-.sass-cache
+# OS files
 .DS_Store
+[Dd]esktop.ini
+
+# Development data
+.grav/
