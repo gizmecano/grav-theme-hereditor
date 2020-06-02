@@ -15,6 +15,7 @@ en:
     BACKHOME: "Back to home page"
     PUBLISHEDON: "Published on"
     WRITTENBY: "Written by"
+    LOGO: "Logo"
 
 fr:
   THEME_HEREDITOR:
@@ -33,3 +34,4 @@ fr:
     BACKHOME: "Retourner à la page d'accueil"
     PUBLISHEDON: "Publié le"
     WRITTENBY: "Rédigé par"
+    LOGO: "Emblème"
