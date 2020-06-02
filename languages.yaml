@@ -4,9 +4,13 @@ en:
     CONTENTCOPY: "All content copyright"
     MADE: "Made with"
     FEED: "Subscribe RSS"
+    OLDER: "Previously"
+    NEWER: "Recently"
 fr:
   THEME_HEREDITOR:
     RIGHTRESERVED: "Tous droits réservés"
     CONTENTCOPY: "Contenu soumis au droit d'auteur"
     MADE: "Conçu avec"
     FEED: "Abonnement RSS"
+    OLDER: "Précédemment"
+    NEWER: "Récemment"
