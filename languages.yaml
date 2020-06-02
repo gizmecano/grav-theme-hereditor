@@ -10,6 +10,8 @@ en:
     TEASERIMAGE: "Teaser image"
     REGULARARTICLE: "Regular article"
     FEATUREDARTICLE: "Featured article"
+    ERROR: "Error"
+
 fr:
   THEME_HEREDITOR:
     RIGHTRESERVED: "Tous droits réservés"
@@ -22,3 +24,4 @@ fr:
     TEASERIMAGE: "Illustration de couverture"
     REGULARARTICLE: "Article régulier"
     FEATUREDARTICLE: "Article en avant"
+    ERROR: "Erreur"
