@@ -6,6 +6,10 @@ en:
     FEED: "Subscribe RSS"
     OLDER: "Previously"
     NEWER: "Recently"
+    ABOUT: "About"
+    TEASERIMAGE: "Teaser image"
+    REGULARARTICLE: "Regular article"
+    FEATUREDARTICLE: "Featured article"
 fr:
   THEME_HEREDITOR:
     RIGHTRESERVED: "Tous droits réservés"
@@ -14,3 +18,7 @@ fr:
     FEED: "Abonnement RSS"
     OLDER: "Précédemment"
     NEWER: "Récemment"
+    ABOUT: "À propos"
+    TEASERIMAGE: "Illustration de couverture"
+    REGULARARTICLE: "Article régulier"
+    FEATUREDARTICLE: "Article en avant"
