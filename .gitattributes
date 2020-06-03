@@ -23,8 +23,9 @@
 *.png  binary
 
 # Define files that are not added to archive files
-.gitattributes  export-ignore
-.gitignore      export-ignore
+.editorconfig  export-ignore
+.gitattributes export-ignore
+.gitignore     export-ignore
 
 # Define folders that are not added to archive files
 .grav/ export-ignore
