@@ -9,6 +9,10 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% include 'partials/metadata.html.twig' %}
+    {# TODO
+    In home page, <meta name="description" /> is displayed without content
+    It's supposed to be <meta name="description" content="{{ site.description }}" />
+    #}
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -23,7 +27,7 @@
         {% do assets.addCss('theme://css/main.css') %}
         {# {% do assets.addCss('theme://css/print.css') %} #}
     {% endblock %}
-    
+
     {% block assets deferred %}
         {{ assets.css()|raw }}
     {% endblock %}
