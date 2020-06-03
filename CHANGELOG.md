@@ -1,3 +1,14 @@
+# v1.5.0-alpha
+## 06/03/2020
+
+1. [](#new)
+    * Split explicitly from upstream repository
+    * Reshape project management
+    * Prepare theme language translations
+2. [](#improved)
+    * Compile various modifications
+    * Check operating native files
+
 # v1.4.1-alpha
 ## 02/11/2020
 
