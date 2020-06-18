@@ -17,22 +17,24 @@ body {
 
 .logo-readium {
   position: fixed;
-  left: 10px;
-  top: 10px;
-  width: 48px;
-  height: 48px;
-  background-color: black;
+  left: 12px;
+  top: 12px;
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
   overflow: hidden;
-  z-index: 99; }
+  z-index: 99;
+  }
   .logo-readium .logo {
     display: block;
     position: absolute;
     top: 8px;
     left: 8px;
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+  }
 
 .teaserimage {
   height: 450px;
