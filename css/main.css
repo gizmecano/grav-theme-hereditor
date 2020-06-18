@@ -257,7 +257,6 @@ body {
     margin-bottom: 16px;
     text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
   .post .article-image .author-image {
-    display: inline-block;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -304,7 +303,6 @@ body {
   color: #333332;
   margin-bottom: 16px; }
 .post .noarticleimage .author-image {
-  display: inline-block;
   width: 30px;
   height: 30px;
   line-height: 30px;
