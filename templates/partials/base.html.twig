@@ -8,11 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {# FIXME metadata description content in homepage #11 #}
     {% include 'partials/metadata.html.twig' %}
-    {# TODO
-    In home page, <meta name="description" /> is displayed without content
-    It's supposed to be <meta name="description" content="{{ site.description }}" />
-    #}
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
