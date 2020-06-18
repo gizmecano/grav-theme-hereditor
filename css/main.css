@@ -395,9 +395,9 @@ body {
       letter-spacing: 0.01rem;
       font-weight: 400;
       font-style: italic;
-      mborder-left: 3px solid #57ad68;
-      mpadding-left: 20px;
-      mmargin-left: -26px;
+      border-left: 3px solid #57ad68;
+      padding-left: 20px;
+      margin-left: -26px;
       padding-bottom: 3px; }
   .post .post-content ul, .post .post-content ol {
     padding: 0 0 30px;
