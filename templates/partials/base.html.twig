@@ -62,10 +62,21 @@
     {% block footer %}
     <!-- footer start -->
     <footer class="site-footer">
-      <a class="subscribe" href="home.rss"> <span class="tooltip"> <i class="fa fa-rss"></i> {{ 'THEME_HEREDITOR.FEED' | t }}</span></a>
+      <i class="fa fa-rss-square" aria-hidden="true"></i>
+      <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
         <div class="inner">
-             <section class="copyright">{{ 'THEME_HEREDITOR.COPYRIGHT' | t }} <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ "now"|date('Y') }} &bull; {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}</section>
-             <section class="poweredby">{{ 'THEME_HEREDITOR.MADE' | t }} <a href="http://getgrav.org"> Grav</a></section>
+             <section class="copyright">
+             {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
+             <a href="/about">{{ site.author.name }}</a>
+             <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+             <br/>
+             {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
+             </section>
+             <section class="poweredby">
+             {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+             <br/>
+             {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+             </section>
         </div>
     </footer>
     <!-- footer end -->
