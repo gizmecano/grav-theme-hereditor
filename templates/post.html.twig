@@ -53,17 +53,33 @@
               <h4>{{ site.author.name }}</h4>
               <p class="bio">{{site.author.bio}}</p>
               <hr/>
-              <p class="published">{{ 'THEME_HEREDITOR.PUBLISHEDON' | t }} <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time></p>
+              <p class="published">
+                <i class="fa fa-pencil-square" aria-hidden="true"></i> {{ 'THEME_HEREDITOR.PUBLISHEDON' | t }}
+                <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time>
+              </p>
+              <p>
+                <i class="fa fa-rss-square" aria-hidden="true"></i>
+                <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
+              </p>
             </section>
           </div>
           {# {{/post}} #}
           <div class="isRight">
             <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.MADE' | t }}</span></h5>
             <footer class="site-footer">
-              <section class="poweredby">{{ 'THEME_HEREDITOR.MADE' | t }} <a href="http://getgrav.org"> Grav</a></section>
-              <a class="subscribe" href="home.rss"> <span class="tooltip"> <i class="fa fa-rss"></i> {{ 'THEME_HEREDITOR.FEED' | t }}</span></a>
+              <section class="poweredby">
+              {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+              <br/>
+              {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+              </section>
               <div class="inner">
-                <section class="copyright">{{ 'THEME_HEREDITOR.CONTENTCOPY' | t }} <a href="{{ base_url_relative }}">{{site.author.name}}</a> &copy; {{ "now"|date('Y') }}<br>{{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}.</section>
+                <section class="copyright">
+                {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
+                <a href="/about">{{ site.author.name }}</a>
+                <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+                <br/>
+                {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
+                </section>
               </div>
             </footer>
           </div>

@@ -3,7 +3,7 @@ en:
     ABOUT: "About"
     ARTICLEIMAGE: "Article image"
     BACKHOME: "Back to home page"
-    CONTENTCOPY: "All content copyright"
+    COPYRIGHT: "Copyright"
     ERROR: "Error"
     FEATUREDARTICLE: "Featured article"
     FEED: "Subscribe RSS"
@@ -15,6 +15,7 @@ en:
     REGULARARTICLE: "Regular article"
     RIGHTRESERVED: "All rights reserved"
     TEASERIMAGE: "Teaser image"
+    THEME: "Active theme"
     WRITTENBY: "Written by"
 
 fr:
@@ -22,7 +23,7 @@ fr:
     ABOUT: "À propos"
     ARTICLEIMAGE: "Illustration de l'article"
     BACKHOME: "Retourner à la page d'accueil"
-    CONTENTCOPY: "Contenu soumis au droit d'auteur"
+    COPYRIGHT: "Copyright"
     ERROR: "Erreur"
     FEATUREDARTICLE: "Article en avant"
     FEED: "Abonnement RSS"
@@ -34,4 +35,5 @@ fr:
     REGULARARTICLE: "Article régulier"
     RIGHTRESERVED: "Tous droits réservés"
     TEASERIMAGE: "Illustration de couverture"
+    THEME: "Thème actif"
     WRITTENBY: "Rédigé par"
