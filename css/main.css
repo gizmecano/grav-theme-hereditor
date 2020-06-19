@@ -268,8 +268,10 @@ body {
     background-size: cover;
     border-radius: 100%;
     text-indent: -9999px; }
-  .post .article-image .author-name {
-    display: inline; }
+    .post .article-image .author-name {
+      display: inline;
+      margin-right: 1rem;
+  }
   .post .article-image .post-meta-text {
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: -0.02em;
