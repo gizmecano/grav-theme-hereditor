@@ -17,11 +17,11 @@
 
     <link rel="canonical" href="{{ page.url() }}">
     <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ theme_url }}/css/main.css">
 
     {% block stylesheets %}
         {% do assets.addCss('http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i') %}
-        {% do assets.addCss('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css') %}
         {# {% do assets.addCss('theme://css/print.css') %} #}
     {% endblock %}
 
