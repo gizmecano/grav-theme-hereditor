@@ -8,10 +8,11 @@
     <div class="cf post-meta-text">
         <div class="author-image" style="background-image: url({{ base_url }}{{ site.author.image }})">{{ 'THEME_HEREDITOR.LOGO' | t }}</div>
         <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ 'THEME_HEREDITOR.WRITTENBY' | t }} {{ site.author.name }}</h4>
-        {{ 'THEME_HEREDITOR.PUBLISHEDON' | t }} <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time>
+        <i class="fa fa-pencil-square" aria-hidden="true"></i> {{ 'THEME_HEREDITOR.PUBLISHEDON' | t }}
+        <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time>
         {% if page.taxonomy.tag|length > 0 %}
-        <span class="post-tags-set">in {% for tag in page.taxonomy.tag %}<span class="post-tag-{{tag}}"><a href="{{ base_url }}/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a></span>{%if not loop.last %} + {% endif %}{% endfor %}</span>
-        {% endif %}
+        <span class="post-tags-set">{{ 'THEME_HEREDITOR.CATEGORIES' | t }}{% for tag in page.taxonomy.tag %}<span class="post-tag-{{tag}}"><a href="{{ base_url }}/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a></span>{%if not loop.last %} + {% endif %}{% endfor %}</span>
+    {% endif %}
     </div>
     <div style="text-align:center">
         <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
