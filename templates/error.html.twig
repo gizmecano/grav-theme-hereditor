@@ -14,7 +14,7 @@
 </main>
 <div class="bottom-closer">
   <div class="background-closer-image" {% if home.header.cover %} style="background-image: url({{ home.media[home.header.cover].brightness(-75).url }})"{% endif %}>
-  Image
+  {{ 'THEME_HEREDITOR.IMAGE' | t }}
   </div>
   <div class="inner">
     <h1 class="blog-title">{{ site.title }}</h1>
