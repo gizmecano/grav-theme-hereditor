@@ -1,12 +1,15 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <div class="page-content">
-        <div class="wrapper">
-            <h1>{{ 'THEME_HEREDITOR.ERROR' | t }} {{ page.header.http_response_code }}</h1>
-            <p>
-                {{ page.content }}
-            </p>
-        </div>
-    </div>
+<main class="content" role="main">
+  <article class="post">
+    <section class="post-content">
+      <h1 class="post-title">{{ 'THEME_HEREDITOR.ERROR' | t }} {{ page.header.http_response_code }}</h1>
+      <div class="notices yellow">
+        {{ page.content }}
+      </div>
+      <p><a href="{{ home.url }}" class="btn">{{ 'THEME_HEREDITOR.BACKHOME' | t }}</a></p>
+    </section>
+  </article>
+</main>
 {% endblock %}
