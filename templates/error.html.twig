@@ -12,4 +12,14 @@
     </section>
   </article>
 </main>
+<div class="bottom-closer">
+  <div class="background-closer-image" {% if home.header.cover %} style="background-image: url({{ home.media[home.header.cover].brightness(-75).url }})"{% endif %}>
+  Image
+  </div>
+  <div class="inner">
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <a href="{{ home.url }}" class="btn">{{ 'THEME_HEREDITOR.BACKHOME' | t }}</a>
+  </div>
+</div>
 {% endblock %}
