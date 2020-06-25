@@ -1,3 +1,21 @@
+# v1.6.0-alpha
+## 06/25/2020
+
+1. [](#new)
+    * Prepare preprocessor scripts removing
+    * Rebuild error template
+
+2. [](#improved)
+    * Reconsider various existing styles
+    * Remodel content in footers
+    * Add new variables used for translation
+    * Check embedded components relevance
+    * Revamp various items set in the post partial template
+
+3. [](#bugfix)
+    * Fix metadata description content in homepage
+    * Fix minor issues in initial main stylesheet
+
 # v1.5.0-alpha
 ## 06/03/2020
 

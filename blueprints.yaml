@@ -1,13 +1,13 @@
 name: Hereditor
-version: 1.5.0-alpha
+version: 1.6.0-alpha
 description: "Hereditor theme"
-icon: bullseye
+icon: university
 author:
   name: P. Mergey
   email: gizmecano+hereditor@gmail.com
   url: https://github.com/gizmecano/
 homepage: https://github.com/gizmecano/grav-theme-hereditor
-keywords: theme, modern, fast, responsive, blog
+keywords: blog, grav-cms, grav-theme, modern-web, responsive-design, responsive-theme, responsive-web-design-project, theme-development
 bugs: https://github.com/gizmecano/grav-theme-hereditor/issues
 license: MIT
 dependencies:
