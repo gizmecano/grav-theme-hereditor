@@ -363,7 +363,7 @@ body {
     hyphens: auto;
   }
   .post .post-content p + p {
-    padding-bottom: 1.125em;
+    padding-top: 1.125em;
   }
   .post .post-content a {
     color: #333333;
