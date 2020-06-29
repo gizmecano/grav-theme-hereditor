@@ -36,10 +36,9 @@
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
-              {% if social.share_url != null %}
-                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | escape}}{{ social.share_link }}{{site.url}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+              {% if social.user != null %}
+                <a class="icon-{{ social.icon }}" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&amp;via={{ social.user }}&amp;url={{ page.canonical() }}" >
+                  <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
                 </a>
               {% endif %}
             {% endfor %}
