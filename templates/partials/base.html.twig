@@ -11,6 +11,11 @@
   <meta property="og:site_name" content="{{ site.description }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="article:author" content="{{ site.author.name }}">
+  {% if page.template == 'post' %}
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
+  <meta property="og:description" content="{{ content | striptags | truncate(200) }}">
+  {% endif %}
   <link rel="canonical" href="{{ page.canonical() }}">
   <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
