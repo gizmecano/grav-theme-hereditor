@@ -16,6 +16,12 @@
   <meta property="og:image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
   <meta property="og:description" content="{{ content | striptags | truncate(200) }}">
   {% endif %}
+  <meta name="twitter:card" content="summary">
+  {% for social in site.social %}
+  {% if social.icon == "twitter" %}
+  <meta name="twitter:creator" content="@{{ social.user }}">
+  {% endif %}
+  {% endfor %}
   <link rel="canonical" href="{{ page.canonical() }}">
   <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
