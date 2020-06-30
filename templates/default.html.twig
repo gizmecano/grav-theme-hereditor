@@ -22,8 +22,8 @@
         <div class="custom-links">
           <p><a href="{{ base_url_relative }}/about">{{ 'THEME_HEREDITOR.ABOUT' | t }}</a></p>
         {% for social in site.social %}
-          {% if social.url %}
-          <a class="icon-{{ social.icon }}" href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
+          {% if social.link %}
+          <a class="icon-{{ social.icon }}" href="{{ social.link }}{{ social.user }}"><i class="fa fa-{{ social.icon }}"></i></a>
           {% endif %}
         {% endfor %}
         </div>
