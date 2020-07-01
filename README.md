@@ -79,6 +79,19 @@ Once this is done, the new theme should be available on the frontend. Keep in mi
 
 ## Configuration
 
+Basically, the _Hereditor_ theme is arranged to use two images:
+
+1. `logo`: used into default page and to link toward homepage (but also as basic shortcut icon)
+2. `author.image`: set as illustration in the mini-bio
+
+These images have to be defined in your `/your/site/grav/user/config/site.yaml` file, such as:
+
+```yaml
+logo: /user/images/logo.png
+author:
+  image: /user/images/avatar.png
+```
+
 In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
 
 ```yaml
