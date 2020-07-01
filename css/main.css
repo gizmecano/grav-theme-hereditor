@@ -138,12 +138,12 @@ body {
         .content article .post-title a:hover {
           text-decoration: none; }
     .content article .post-excerpt {
-      letter-spacing: -0.02em;
       font-weight: 300;
-      font-style: normal;
-      font-size: 20px;
-      line-height: 1.3;
-      color: #666665; }
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1.3em;
+      color: #666665;
+    }
     .content article .post-meta {
       font-size: 14px;
       color: #b3b3b1;
@@ -334,23 +334,27 @@ body {
   color: #333333; }
   .post .post-content h1, .post .post-content h2, .post .post-content h3 {
     font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
-  .post .post-content h3, .post .post-content h4, .post .post-content h5, .post .post-content h6 {
+  .post .post-content h3,
+  .post .post-content h4,
+  .post .post-content h5,
+  .post .post-content h6 {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
     line-height: 1.3;
-    margin: 0;
+
     font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    margin-bottom: 4px; }
-  .post .post-content h2, .post .post-content h1 {
+  }
+  .post .post-content h1,
+  .post .post-content h2 {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
     line-height: 1.2;
     padding-top: 31px;
-    margin-bottom: 4px; }
+  }
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
@@ -363,7 +367,7 @@ body {
     hyphens: auto;
   }
   .post .post-content p + p {
-    padding-bottom: 1.125em;
+    padding-top: 1.125em;
   }
   .post .post-content a {
     color: #333333;
@@ -516,7 +520,9 @@ body {
 
 .share {
   text-align: right;
-  padding: 20px 0 0; }
+  padding: 20px 0 0;
+  line-height: 20px;
+}
   .share a {
     text-decoration: none;
     color: #bbbbbb;
@@ -571,23 +577,21 @@ body {
       text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
     .bottom-closer .inner .custom-links {
       margin: 0 0 50px; }
-    .bottom-closer .inner .btn {
-      display: inline-block;
-      text-align: center;
-      letter-spacing: -0.02em;
-      font-size: 15px;
-      font-weight: 400;
-      font-style: normal;
-      text-decoration: none;
-      cursor: pointer;
-      height: 44px;
-      background: #57ad68;
-      color: white;
-      vertical-align: middle;
-      box-sizing: border-box;
-      border-radius: 999em;
-      line-height: 44px;
-      padding: 0 18px; }
+      .bottom-closer .inner .btn {
+        display: inline-block;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        cursor: pointer;
+        height: 44px;
+        background: #57ad68;
+        color: white;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border-radius: 999em;
+        line-height: 44px;
+        padding: 0 18px;
+      }
 
 #disqus_thread {
   margin-top: 50px; }

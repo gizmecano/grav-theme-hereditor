@@ -14,8 +14,8 @@ Installing the _Hereditor_ theme can be done in one of two ways. Using the GPM (
 
 The simplest way to install the theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through the system's Terminal (also called _the command line_). From the root of the Grav install type:
 
-```
-bin/gpm install hereditor
+```bash
+$ bin/gpm install hereditor
 ```
 
 This will install the _Hereditor_ theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/hereditor`.
@@ -36,8 +36,8 @@ As development for the _Hereditor_ theme continues, new versions may become avai
 
 The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). Navigate to the root directory of the Grav install using the system's Terminal (also called _command line_) and type the following:
 
-```
-bin/gpm update hereditor
+```bash
+$ bin/gpm update hereditor
 ```
 
 This command will check the Grav install to see if the _Hereditor_ theme is due for an update. If a newer release is found, it will be asked whether or not proceed to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
@@ -49,7 +49,11 @@ Manually updating _Hereditor_ is pretty simple:
 - Delete the `your/site/user/themes/hereditor` directory
 - Download the new version of the _Hereditor_ theme from either [GitHub](https://github.com/gizmecano/grav-theme-hereditor/) or [GetGrav.org](https://getgrav.org/downloads/themes)
 - Unzip the `zip` file in `your/site/user/themes` and rename the resulting folder to `hereditor`
-- Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`
+- Clear the Grav cache using admin panel or following command:
+
+```bash
+$ bin/grav clear-cache
+```
 
 Note that any changes made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a ``YAML`` settings file placed in `user/config/themes`) will remain intact.
 
@@ -63,9 +67,39 @@ To set _Hereditor_ as the default theme, the steps to follow are:
 - Open the `system.yaml` file
 - Change the `theme:` setting to `theme: hereditor`
 - Save the changes
-- Clear the Grav cache (the simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`)
+- Clear the Grav cache using admin panel or following command:
+
+```bash
+$ bin/grav clear-cache
+```
 
 Once this is done, the new theme should be available on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `hereditor` folder.
+
+--------------------------------------------------------------------------------
+
+## Configuration
+
+Basically, the _Hereditor_ theme is arranged to use two images:
+
+1. `logo`: used into default page and to link toward homepage (but also as basic shortcut icon)
+2. `author.image`: set as illustration in the mini-bio
+
+These images have to be defined in your `/your/site/grav/user/config/site.yaml` file, such as:
+
+```yaml
+logo: /user/images/logo.png
+author:
+  image: /user/images/avatar.png
+```
+
+In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
+
+```yaml
+social:
+  - icon: networkname
+    link: https://twitter.com/
+    user: username
+```
 
 --------------------------------------------------------------------------------
 
