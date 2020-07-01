@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}"{% if page.template == 'post' %} itemscope itemtype="https://schema.org/Article"{% endif %}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,10 @@
     <meta name="twitter:creator" content="@{{ social.user }}">
   {% endif %}
   {% endfor %}
+  <link rel="author" href="{{ site.author.name }}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{{ content | striptags | truncate(200) }}">
+  <meta itemprop="image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
 
   <link rel="canonical" href="{{ page.canonical() }}">
   <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
