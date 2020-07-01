@@ -77,6 +77,19 @@ Once this is done, the new theme should be available on the frontend. Keep in mi
 
 --------------------------------------------------------------------------------
 
+## Configuration
+
+In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
+
+```yaml
+social:
+  - icon: networkname
+    link: https://twitter.com/
+    user: username
+```
+
+--------------------------------------------------------------------------------
+
 ## License
 
 The _Hereditor_ theme is free and open source software, distributed under the [MIT License](/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
