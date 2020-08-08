@@ -10,7 +10,7 @@
         {% if page.header.image %}
         <div class="article-image">
           <div class="post-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})">
-            Article Image
+            {{ 'THEME_HEREDITOR.ARTICLEIMAGE' | t }}
           </div>
           {% include 'partials/postmeta.html.twig' %}
         </div>
@@ -25,7 +25,7 @@
         <section class="post-content">
           {% if page.template == 'post' %}
           <div class="post-reading">
-            <span class="post-reading-time"></span> read
+            <span class="post-reading-time"></span>
           </div>
           {% endif %}
           <a name="topofpage"></a>
@@ -36,10 +36,9 @@
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
-              {% if social.share_url != null %}
-                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | escape}}{{ social.share_link }}{{site.url}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+              {% if social.user != null %}
+                <a class="icon-{{ social.icon }}" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&amp;via={{ social.user }}&amp;url={{ page.canonical() }}" >
+                  <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
                 </a>
               {% endif %}
             {% endfor %}
@@ -47,23 +46,39 @@
         </footer>
         <div class="bottom-teaser cf">
           <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.WRITTENBY' | t }}</span></h5>
             <section class="author">
               <div class="author-image" style="background-image: url({{ base_url }}{{site.author.image}})">Blog Logo</div>
               <h4>{{ site.author.name }}</h4>
               <p class="bio">{{site.author.bio}}</p>
-              <hr>
-              <p class="published">Published <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time></p>
+              <hr/>
+              <p class="published">
+                <i class="fa fa-pencil-square" aria-hidden="true"></i> {{ 'THEME_HEREDITOR.PUBLISHEDON' | t }}
+                <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time>
+              </p>
+              <p>
+                <i class="fa fa-rss-square" aria-hidden="true"></i>
+                <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
+              </p>
             </section>
           </div>
           {# {{/post}} #}
           <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.MADE' | t }}</span></h5>
             <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://getgrav.org"> Grav</a></section>
-              <a class="subscribe" href="{{ base_url_relative }}/blog.rss"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <section class="poweredby">
+              {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+              <br/>
+              {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+              </section>
               <div class="inner">
-                <section class="copyright">All content copyright <a href="{{ base_url_relative }}">{{site.author.name}}</a> &copy; {{ "now"|date('Y') }}<br>All rights reserved.</section>
+                <section class="copyright">
+                {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
+                <a href="/about">{{ site.author.name }}</a>
+                <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+                <br/>
+                {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
+                </section>
               </div>
             </footer>
           </div>
@@ -74,12 +89,12 @@
     </main>
     <div class="bottom-closer">
       <div class="background-closer-image" {% if home.header.cover %} style="background-image: url({{ home.media[home.header.cover].brightness(-75).url }})"{% endif %}>
-        Image
+        {{ 'THEME_HEREDITOR.IMAGE' | t }}
       </div>
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
         <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="{{ home.url }}" class="btn">Back to Overview</a>
+        <a href="{{ home.url }}" class="btn">{{ 'THEME_HEREDITOR.BACKHOME' | t }}</a>
       </div>
     </div>
 {% endblock %}

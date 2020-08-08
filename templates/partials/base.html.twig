@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}"{% if page.template == 'post' %} itemscope itemtype="https://schema.org/Article"{% endif %}>
 <head>
-    <meta charset="utf-8">
-    <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }} &#8212; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% include 'partials/metadata.html.twig' %}
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}" />
+  <meta property="og:url" content="{{ page.canonical() }}">
+  <meta property="og:locale" content="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+  <meta property="og:site_name" content="{{ site.description }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="article:author" content="{{ site.author.name }}">
+  {% if page.template == 'post' %}
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
+  <meta property="og:description" content="{{ content | striptags | truncate(200) }}">
+  {% endif %}
+  {% for social in site.social %}
+  {% if social.icon == "twitter" %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@{{ social.user }}">
+  {% endif %}
+  {% endfor %}
+  <link rel="author" href="{{ site.author.name }}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{{ content | striptags | truncate(200) }}">
+  <meta itemprop="image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="canonical" href="{{ page.canonical() }}">
+  <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ theme_url }}/css/main.css">
 
-    {% for meta in page.metadata %}
-    <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
-    {% endfor %}
+    {% block stylesheets %}
+        {% do assets.addCss('http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i') %}
+        {# {% do assets.addCss('theme://css/print.css') %} #}
+    {% endblock %}
 
-    <link rel="canonical" href="{{ page.url() }}">
-    <link rel="shortcut icon" href="{{ theme_url }}/images/favicon.png">
-    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    {% block javascripts %}
+        {% do assets.add('jquery', {group: 'bottom', priority: 101}) %}
+        {% do assets.addJs('theme://js/jquery.fitvids.js', {group: 'bottom'}) %}
+        {% do assets.addJs('theme://js/readingTime.min.js', {group: 'bottom'}) %}
+        {% do assets.addJs('theme://js/index.js', {group: 'bottom'}) %}
+    {% endblock %}
 
-    {% do assets.addCss('theme://css/main.css') %}
-    {# {% do assets.addCss('theme://css/print.css') %} #}
-    {{ assets.css() }}
+    {% block assets deferred %}
+        {{ assets.css()|raw }}
+        {{ assets.js()|raw }}
+    {% endblock %}
 </head>
 {% block body %}
 <body>
@@ -35,7 +58,7 @@
 {% set home = pages.find(config.system.home.alias) %}
 
     {% block header %}
-        <a href="{{ base_url_relative }}" class="logo-readium"><span class="logo" style="background-image: url({{ base_url_relative }}{{ site.logo }})"></span></a>
+        <a href="{{ home.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ base_url_relative }}{{ site.logo }})"></span></a>
     {% endblock %}
 
     <!-- content start -->
@@ -53,16 +76,29 @@
     {% block footer %}
     <!-- footer start -->
     <footer class="site-footer">
-      <a class="subscribe" href="{{ base_url }}/blog.rss"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+      <i class="fa fa-rss-square" aria-hidden="true"></i>
+      <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
         <div class="inner">
-             <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ "now"|date('Y') }} &bull; All rights reserved.</section>
-             <section class="poweredby">Made with <a href="http://getgrav.org"> Grav</a></section>
+             <section class="copyright">
+             {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
+             <a href="/about">{{ site.author.name }}</a>
+             <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+             <br/>
+             {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
+             </section>
+             <section class="poweredby">
+             {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+             <br/>
+             {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+             </section>
         </div>
     </footer>
     <!-- footer end -->
     {% endblock %}
 
-{% include 'partials/javascripts.html.twig' %}
-
+    {% block bottom %}
+        {{ assets.js('bottom')|raw }}
+    {% endblock %}
+    {% include 'partials/javascripts.html.twig' %}
 </body>
 </html>

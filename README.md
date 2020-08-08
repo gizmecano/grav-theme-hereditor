@@ -1,72 +1,108 @@
-# Mediator Grav Theme
+# Hereditor Theme
 
-![Mediator](assets/readme_1.png)
+## Background
 
-The Mediator theme for Grav is a direct port of the [Mediator Theme for Jekyll](https://github.com/dirkfabisch/mediator) designed by [Dirk Fabisch](http://blog.base68.com/about/) which in turn was inspired by the [Readium 2.0 Theme for Ghost](http://www.svenread.com/readium-ghost-theme/).
+The _Hereditor_ theme for Grav is a fork of the [_Mediator_ theme for Grav](https://github.com/getgrav/grav-theme-mediator) developed by [Grav Team and contributors](https://github.com/getgrav/grav-theme-mediator/graphs/contributors), which was a direct port of the [_Mediator_ Theme for Jekyll](https://github.com/dirkfabisch/mediator) designed by [Dirk Fabisch](http://blog.base68.com/about/) which in turn was inspired by the [_Readium 2.0 Theme_ for Ghost](http://www.svenread.com/readium-ghost-theme/).
 
-## Skeleton
+--------------------------------------------------------------------------------
 
-The theme works best in combination with appropriate content and configuration. Please check out the [Mediator Skeleton Package](https://github.com/getgrav/grav-skeleton-mediator-site) that is the self-contained repository for a complete Mediator site which includes: **sample content**, **configuration**, **theme**, **plugins**.
+## Installation
 
-# Installation
+Installing the _Hereditor_ theme can be done in one of two ways. Using the GPM (Grav Package Manager) installation method enables to quickly and easily install the theme with a simple terminal command, while the manual method enables to do so via a `zip` file.
 
-Installing the Mediator theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file. 
+### GPM Installation
 
-## GPM Installation (Preferred)
+The simplest way to install the theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through the system's Terminal (also called _the command line_). From the root of the Grav install type:
 
-The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
+```bash
+$ bin/gpm install hereditor
+```
 
-    bin/gpm install mediator
+This will install the _Hereditor_ theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/hereditor`.
 
-This will install the Mediator theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/mediator`.
+### Manual Installation
 
-## Manual Installation
+To install the theme, just download the `zip` version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `hereditor`. These files can be found either on [GitHub](https://github.com/gizmecano/grav-theme-hereditor/) or via [GetGrav.org](http://getgrav.org/downloads/themes).
 
-To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `mediator`. You can find these files either on [GitHub](https://github.com/getgrav/grav-theme-mediator) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+All the _Hereditor_ theme files should be into the folder `/your/site/grav/user/themes/hereditor`.
 
-You should now have all the theme files under
+--------------------------------------------------------------------------------
 
-    /your/site/grav/user/themes/mediator
+## Updating
 
->> NOTE: This theme is a modular component for Grav which requires the [Grav](http://github.com/getgrav/grav), [Error](https://github.com/getgrav/grav-theme-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) plugins.
+As development for the _Hereditor_ theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating _Hereditor_ is easy, and can be done through Grav's GPM system, as well as manually.
 
-# Updating
+### GPM Update
 
-As development for the Mediator theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Mediator is easy, and can be done through Grav's GPM system, as well as manually.
+The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). Navigate to the root directory of the Grav install using the system's Terminal (also called _command line_) and type the following:
 
-## GPM Update (Preferred)
+```bash
+$ bin/gpm update hereditor
+```
 
-The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
+This command will check the Grav install to see if the _Hereditor_ theme is due for an update. If a newer release is found, it will be asked whether or not proceed to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
 
-    bin/gpm update mediator
+### Manual Update
 
-This command will check your Grav install to see if your Mediator theme is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
+Manually updating _Hereditor_ is pretty simple:
 
-## Manual Update
+- Delete the `your/site/user/themes/hereditor` directory
+- Download the new version of the _Hereditor_ theme from either [GitHub](https://github.com/gizmecano/grav-theme-hereditor/) or [GetGrav.org](https://getgrav.org/downloads/themes)
+- Unzip the `zip` file in `your/site/user/themes` and rename the resulting folder to `hereditor`
+- Clear the Grav cache using admin panel or following command:
 
-Manually updating Mediator is pretty simple. Here is what you will need to do to get this done:
+```bash
+$ bin/grav clear-cache
+```
 
-* Delete the `your/site/user/themes/mediator` directory.
-* Download the new version of the Mediator theme from either [GitHub](https://github.com/getgrav/grav-plugin-mediator) or [GetGrav.org](http://getgrav.org/downloads/themes#extras).
-* Unzip the zip file in `your/site/user/themes` and rename the resulting folder to `mediator`.
-* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
+Note that any changes made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a ``YAML`` settings file placed in `user/config/themes`) will remain intact.
 
-> Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
+--------------------------------------------------------------------------------
 
-# Setup
+## Setup
 
-If you want to set Mediator as the default theme, you can do so by following these steps:
+To set _Hereditor_ as the default theme, the steps to follow are:
 
-* Navigate to `/your/site/grav/user/config`.
-* Open the **system.yaml** file.
-* Change the `theme:` setting to `theme: mediator`.
-* Save your changes.
-* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
+- Navigate to `/your/site/grav/user/config`
+- Open the `system.yaml` file
+- Change the `theme:` setting to `theme: hereditor`
+- Save the changes
+- Clear the Grav cache using admin panel or following command:
 
-Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **mediator** folder.
+```bash
+$ bin/grav clear-cache
+```
 
----
+Once this is done, the new theme should be available on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `hereditor` folder.
+
+--------------------------------------------------------------------------------
+
+## Configuration
+
+Basically, the _Hereditor_ theme is arranged to use two images:
+
+1. `logo`: used into default page and to link toward homepage (but also as basic shortcut icon)
+2. `author.image`: set as illustration in the mini-bio
+
+These images have to be defined in your `/your/site/grav/user/config/site.yaml` file, such as:
+
+```yaml
+logo: /user/images/logo.png
+author:
+  image: /user/images/avatar.png
+```
+
+In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
+
+```yaml
+social:
+  - icon: networkname
+    link: https://twitter.com/
+    user: username
+```
+
+--------------------------------------------------------------------------------
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
+The _Hereditor_ theme is free and open source software, distributed under the [MIT License](/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
