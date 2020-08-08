@@ -40,7 +40,7 @@ body {
   height: 450px;
   position: relative;
   overflow: hidden;
-  background-color: black; }
+  background-color: var(--color-black); }
   .teaserimage .teaserimage-image {
     background-size: cover;
     background-position: center;
@@ -75,8 +75,8 @@ body {
     border-radius: 50%;
     z-index: 99;
     text-indent: -9999px;
-    border: 3px solid white;
-    background-color: white;
+    border: 3px solid var(--color-white);
+    background-color: var(--color-white);
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
@@ -219,7 +219,7 @@ body {
 
 .post .article-image {
   position: absolute;
-  background-color: black;
+  background-color: var(--color-black);
   top: 0;
   left: 0;
   right: 0;
@@ -255,7 +255,7 @@ body {
     letter-spacing: -0.04em;
     font-size: 50px;
     line-height: 1.1;
-    color: white;
+    color: var(--color-white);
     margin-bottom: 16px;
     text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
   .post .article-image .author-image {
@@ -286,13 +286,13 @@ body {
     .post .article-image .post-meta-text a {
       color: rgba(255, 255, 255, 0.75); }
       .post .article-image .post-meta-text a:hover {
-        color: white; }
+        color: var(--color-white); }
   .post .article-image .fa-angle-down {
     font-size: 64px;
     margin: 64px auto 0;
     color: rgba(255, 255, 255, 0.75); }
     .post .article-image .fa-angle-down:hover {
-      color: white; }
+      color: var(--color-white); }
   .post .article-image .topofpage {
     text-decoration: underline; }
 .post .noarticleimage .post-meta {
@@ -448,7 +448,7 @@ body {
     .post .bottom-teaser .isLeft .index-headline {
       padding-bottom: 32px; }
     .post .bottom-teaser .isLeft a {
-      color: black;
+      color: var(--color-black);
       text-decoration: underline;
     }
       .post .bottom-teaser .isLeft a:hover {
@@ -564,14 +564,14 @@ body {
       outline: 0;
       line-height: 50px;
       word-break: break-word;
-      color: white;
+      color: var(--color-white);
       text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
     .bottom-closer .inner .blog-description {
       margin: 0 0 50px;
       padding: 0 32px;
       font-size: 18px;
       line-height: 1.5;
-      color: white;
+      color: var(--color-white);
       text-align: center;
       font-weight: 400;
       text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
@@ -585,7 +585,7 @@ body {
         cursor: pointer;
         height: 44px;
         background: var(--hex-57);
-        color: white;
+        color: var(--color-white);
         vertical-align: middle;
         box-sizing: border-box;
         border-radius: 999em;

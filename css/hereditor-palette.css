@@ -12,4 +12,7 @@
     --hex-e8: #e8e8e8;
     --hex-ee: #eeeeff;
     --hex-f2: #f2f2f0;
+    /* Collate initial named colors */
+    --color-black: black;
+    --color-white: white;
 }
