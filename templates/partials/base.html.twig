@@ -27,11 +27,10 @@
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta itemprop="description" content="{{ content | striptags | truncate(200) }}">
   <meta itemprop="image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
-
   <link rel="canonical" href="{{ page.canonical() }}">
   <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ theme_url }}/assets/normalize.css">
   <link rel="stylesheet" href="{{ theme_url }}/css/hereditor-palette.css">
   <link rel="stylesheet" href="{{ theme_url }}/css/hereditor-outline.css">
   <link rel="stylesheet" href="{{ theme_url }}/css/main.css">
