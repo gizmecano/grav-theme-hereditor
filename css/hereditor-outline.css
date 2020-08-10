@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Checked styles
+   ========================================================================== */
+
+/* Elements
+   ========================================================================== */
+
+  body {
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-feature-settings: "liga", "dlig";
+  }
+
+/* Classes
+   ========================================================================== */
+
+  .logo-readium {
+    position: fixed;
+    left: 12px;
+    top: 12px;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 99;
+  }
+  .logo-readium .logo {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .teaserimage {
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(var(--tint-black));
+  }
+  .teaserimage .teaserimage-image {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    text-indent: -9999px;
+  }
+  .blog-header {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 800px) {
+    .blog-header {
+        padding: 0 16px;
+      }
+  }
+  .blog-header .blog-logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -60px;
+    right: 50%;
+    margin-right: -60px;
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 99;
+    text-indent: -9999px;
+    border: 3px solid rgb(var(--tint-white));
+    background-color: rgb(var(--tint-white));
+    box-shadow: 0 1px 1px rgba(var(--tint-black), 0.3);
+  }
+  .blog-header .blog-title {
+    margin: 0;
+    padding: 84px 16px 8px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    outline: 0;
+    line-height: 50px;
+    word-break: break-word;
+    color: rgb(var(--tint-nightrider));
+  }
+  .blog-header .blog-description {
+    margin: 0 0 20px;
+    padding: 0 32px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(var(--tint-dimgray));
+    text-align: center;
+    font-weight: 400;
+  }
+  .blog-header .custom-links {
+    margin: 0 0 50px;
+    text-align: center;
+    color: rgb(var(--tint-verylightgrey));
+  }
+  .blog-header .custom-links a {
+    text-decoration: none;
+    color: rgb(var(--tint-nobel));
+  }
+  .blog-header .custom-links a:hover {
+    color: rgb(var(--tint-nightrider));
+  }
+  .content {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 800px) {
+    .content {
+      padding: 0 32px;
+    }
+  }
+  .cf:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content article {
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(var(--tint-alabaster));
+  }
+  .content article .post-title {
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    font-size: 28px;
+    line-height: 1.1;
+    margin: 0 0;
+  }
+  .content article .post-title a {
+    text-decoration: none;
+    color: rgb(var(--tint-nightrider));
+  }
+  .content article .post-title a:hover {
+    text-decoration: none;
+  }
+  .content article .post-excerpt {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.3em;
+    color: rgb(var(--tint-dimgray));
+  }
+  .content article .post-meta {
+    font-size: 14px;
+    color: rgb(var(--tint-bombay));
+    line-height: 30px;
+  }
+  .content article .post-meta a {
+    color: rgb(var(--tint-bombay));
+    text-decoration: none;
+  }
+  .content article .post-meta a:hover {
+    text-decoration: underline;
+  }
+  .pagination {
+    font-size: 12px;
+  }
+  .pagination a {
+    color: rgb(var(--tint-nobel));
+    text-decoration: none;
+  }
+  .pagination a:hover {
+    color: rgb(var(--tint-nightrider));
+  }
+  .site-footer {
+    margin: 0 auto;
+    padding: 48px 0;
+    width: 100%;
+    max-width: 640px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(var(--tint-nobel));
+    line-height: 17.6px;
+  }
+  .site-footer a {
+    color: rgb(var(--tint-dimgray));
+    text-decoration: none;
+  }
+  .site-footer a:hover {
+    color: rgb(var(--tint-nightrider));
+  }
