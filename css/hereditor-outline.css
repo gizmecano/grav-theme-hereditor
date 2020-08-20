@@ -1,4 +1,16 @@
 /* ==========================================================================
+   Altered styles
+   ========================================================================== */
+
+/* Variables
+   ========================================================================== */
+
+  :root {
+    --font-sns: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; /* Sans-serif font family */
+    --font-srf: Linux Libertine;                                                      /* Serif font family */
+  }
+
+/* ==========================================================================
    Checked styles
    ========================================================================== */
 
@@ -6,7 +18,7 @@
    ========================================================================== */
 
   body {
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
     margin: 0;
     padding: 0;
     font-feature-settings: "liga", "dlig";
@@ -226,7 +238,7 @@
     left: 30%;
     right: 30%;
     z-index: 9;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
     box-sizing: border-box;
   }
   @media only screen and (max-width: 800px) {
@@ -253,7 +265,7 @@
     text-shadow: 0px 1px 4px rgba(var(--tint-black), 0.25), 0px 0px 1px rgba(var(--tint-black), 0.5);
     font-size: 14px;
     overflow: hidden;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
     white-space: nowrap;
     text-overflow: ellipsis;
   }
@@ -276,7 +288,7 @@
     text-decoration: underline;
   }
   .post .noarticleimage .post-meta {
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
     padding-top: 60px;
   }
   .post .noarticleimage .post-title {
@@ -290,7 +302,7 @@
   }
   .post .post-content {
     width: 100%;
-    font-family: Linux Libertine;
+    font-family: var(--font-srf);
     color: rgb(var(--tint-nightrider));
   }
   .post .post-content a {
@@ -303,7 +315,7 @@
   .post .post-content h4,
   .post .post-content h5,
   .post .post-content h6 {
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
   }
   .post .post-content h1,
   .post .post-content h2 {
@@ -414,7 +426,7 @@
   }
   .post .bottom-teaser {
     padding: 50px 0;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: var(--font-sns);
   }
   .post .bottom-teaser hr {
     border: 0;
