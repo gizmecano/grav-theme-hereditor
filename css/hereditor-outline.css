@@ -7,7 +7,7 @@
 
   :root {
     --font-sns: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; /* Sans-serif font family */
-    --font-srf: Linux Libertine;                                                      /* Serif font family */
+    --font-text: 'Inter var', sans-serif;                                             /* Sans-serif family for texts */
   }
 
 /* ==========================================================================
@@ -302,7 +302,7 @@
   }
   .post .post-content {
     width: 100%;
-    font-family: var(--font-srf);
+    font-family: var(--font-text);
     color: rgb(var(--tint-nightrider));
   }
   .post .post-content a {
