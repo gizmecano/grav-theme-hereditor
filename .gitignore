@@ -3,3 +3,6 @@
 
 # Development data
 .grav/
+
+# Binary files
+*.woff2
