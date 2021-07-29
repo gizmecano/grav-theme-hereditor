@@ -6,7 +6,7 @@
    ========================================================================== */
 
   :root {
-    --font-sns: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; /* Sans-serif font family */
+    --font-sns: 'Inter var', sans-serif; /* Sans-serif font family */
     --font-srf: Linux Libertine;                                                      /* Serif font family */
   }
 
