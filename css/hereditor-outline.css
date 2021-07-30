@@ -6,8 +6,8 @@
    ========================================================================== */
 
   :root {
-    --font-sns: 'Inter var', sans-serif; /* Sans-serif font family */
-    --font-srf: Linux Libertine;                                                      /* Serif font family */
+    --font-sns: 'Inter var', sans-serif;    /* Sans-serif font family */
+    --font-srf: 'Libertinus Serif', serif;  /* Serif font family */
   }
 
 /* ==========================================================================
