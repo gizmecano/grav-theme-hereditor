@@ -1,0 +1,17 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80
+  ],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+  },
+  "files.exclude": {
+    "**/desktop.ini": true
+  },
+  "files.trimTrailingWhitespace": false
+}
