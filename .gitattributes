@@ -28,4 +28,5 @@
 .gitignore     export-ignore
 
 # Define folders that are not added to archive files
-.grav/ export-ignore
+.grav/  export-ignore
+.vscode export-ignore

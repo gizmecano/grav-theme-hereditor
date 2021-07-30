@@ -1,6 +1,9 @@
 # OS files
 [Dd]esktop.ini
 
+# Development environment
+*.*-workspace
+
 # Development data
 .grav/
 
