@@ -1,3 +1,17 @@
+# v2.0.0-alpha
+## 08/09/2021
+
+1. [](#new)
+    * Embed fonts previously delivered remotely
+    * Embed assets previously delivered remotely
+    * Rearrange color palette
+2. [](#improved)
+    * Adjust documentation during building process
+    * Amend main license
+    * Check usage of remaining styles
+    * Check scripts usage
+    * Redesign main stylesheet
+
 # v1.7.0-alpha
 ## 07/01/2020
 
