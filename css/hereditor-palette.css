@@ -1,0 +1,16 @@
+:root {
+  /* Converted palette */
+  --tint-white: 255, 255, 255;
+  --tint-alabaster: 242, 242, 240;      /* circa Alabaster */
+  --tint-lavender: 238, 238, 255;       /* circa Lavender */
+  --tint-whisper: 232, 232, 232;        /* circa Whisper */
+  --tint-snowdrift: 222, 222, 220;      /* circa Snow Drift */
+  --tint-verylightgrey: 204, 204, 204;  /* circa Very Light Grey */
+  --tint-silver: 187, 187, 187;         /* circa Silver */
+  --tint-bombay: 179, 179, 177;         /* circa Bombay */
+  --tint-nobel: 153, 153, 153;          /* circa Nobel */
+  --tint-dimgray: 102, 102, 102;        /* circa Dim Gray */
+  --tint-fern: 87, 173, 104;            /* circa Fern */
+  --tint-nightrider: 51, 51, 51;        /* circa Night Rider */
+  --tint-black: 0, 0, 0;
+}

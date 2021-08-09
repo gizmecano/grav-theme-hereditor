@@ -1,5 +1,13 @@
 # OS files
 [Dd]esktop.ini
 
+# Development environment
+*.*-workspace
+
 # Development data
 .grav/
+
+# Binary asset files
+assets/fontawesome/
+assets/inter/
+assets/libertinus/
