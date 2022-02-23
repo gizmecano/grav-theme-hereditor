@@ -24,7 +24,7 @@
         {% endif %}
         <section class="post-content">
           <a name="topofpage"></a>
-          {{ content }}
+          {{ content|raw }}
         </section>
 
         {% if page.template == 'post' %}
