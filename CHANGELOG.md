@@ -60,14 +60,14 @@
     * Move deferred javascript assets
 
 # v1.4.0
-## 21-03-2019
+## 22-03-2019
 
 1. [](#new)
     * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
     * Implement assets rendering using **Deferred Block** Twig extension 
 
 # v1.3.1-alpha
-## 05-03-2019
+## 11-02-2020
 
 1. [](#bugfix)
     * Escaping `#` in `jQuery` selection for click event
@@ -82,7 +82,7 @@
     * Fix pagination
 
 # v1.2.0
-## 06-01-2016
+## 07-01-2016
 
 1. [](#improved)
     * Dropped an extraneous debug statement
@@ -103,7 +103,7 @@
     * Switched to Grav's built-in `jQuery` assets
 
 # v1.0.2
-## 19-02-2015
+## 20-02-2015
 
 2. [](#improved)
     * Updated README
@@ -112,7 +112,7 @@
     * Implemented new `param_sep` variable from Grav 0.9.18
 
 # v1.0.1
-## 10-02-2015
+## 07-12-2015
 
 1. [](#new)
     * ChangeLog started
