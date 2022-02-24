@@ -1,5 +1,5 @@
 # v2.0.0-alpha
-## 08/09/2021
+## 09-08-2021
 
 1. [](#new)
     * Embed fonts previously delivered remotely
@@ -13,7 +13,7 @@
     * Redesign main stylesheet
 
 # v1.7.0-alpha
-## 07/01/2020
+## 01-07-2020
 
 1. [](#new)
     * Revise social links integrations
@@ -25,7 +25,7 @@
     * Fix various elements in `<head>` section
 
 # v1.6.0-alpha
-## 06/25/2020
+## 25-06-2020
 
 1. [](#new)
     * Prepare preprocessor scripts removing
@@ -41,7 +41,7 @@
     * Fix minor issues in initial main stylesheet
 
 # v1.5.0-alpha
-## 06/03/2020
+## 03-06-2020
 
 1. [](#new)
     * Split explicitly from upstream repository
@@ -52,7 +52,7 @@
     * Check operating native files
 
 # v1.4.1-alpha
-## 02/11/2020
+## 11-02-2020
 
 1. [](#improved)
     * Fixed logo link to use home URL
@@ -60,20 +60,20 @@
     * Move deferred javascript assets
 
 # v1.4.0
-## 03/21/2019
+## 21-03-2019
 
 1. [](#new)
     * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
     * Implement assets rendering using **Deferred Block** Twig extension 
 
 # v1.3.1-alpha
-## 03/05/2019
+## 05-03-2019
 
 1. [](#bugfix)
     * Escaping `#` in `jQuery` selection for click event
 
 # v1.3.0
-## 07/14/2016
+## 14-07-2016
 
 1. [](#improved)
     * Remove unneeded streams from Theme YAML
@@ -82,7 +82,7 @@
     * Fix pagination
 
 # v1.2.0
-## 01/06/2016
+## 06-01-2016
 
 1. [](#improved)
     * Dropped an extraneous debug statement
@@ -91,19 +91,19 @@
     * Fix tag links on a root domain site
 
 # v1.1.0
-## 08/25/2015
+## 25-08-2015
 
 1. [](#improved)
     * Added blueprints for Grav Admin plugin
 
 # v1.0.3
-## 03/01/2015
+## 01-03-2015
 
 1. [](#improved)
     * Switched to Grav's built-in `jQuery` assets
 
 # v1.0.2
-## 02/19/2015
+## 19-02-2015
 
 2. [](#improved)
     * Updated README
@@ -112,7 +112,7 @@
     * Implemented new `param_sep` variable from Grav 0.9.18
 
 # v1.0.1
-## 02/10/2015
+## 10-02-2015
 
 1. [](#new)
     * ChangeLog started
