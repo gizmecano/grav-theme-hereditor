@@ -115,6 +115,14 @@ author:
   image: /user/images/avatar.png
 ```
 
+### Article header images
+
+Header images can be used in articles which are based on the **post** template. Any header image has to be declared in the front-matter section of the post, by adding a tag `image` populated with a proper URL to the intented file, such as this code sample (if the image is set in the same folder as the article):
+
+```yaml
+image: header-image.jpg
+```
+
 ### Social links
 
 In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
