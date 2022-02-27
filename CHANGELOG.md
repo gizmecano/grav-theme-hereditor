@@ -54,20 +54,15 @@
 # v1.4.1-alpha
 ## 11-02-2020
 
+1. [](#new)
+    * Implement assets rendering using **Deferred Block** Twig extension
 1. [](#improved)
     * Fixed logo link to use home URL
 1. [](#bugfix)
     * Move deferred javascript assets
 
-# v1.4.0
-## 22-03-2019
-
-1. [](#new)
-    * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
-    * Implement assets rendering using **Deferred Block** Twig extension 
-
 # v1.3.1-alpha
-## 11-02-2020
+## 05-03-2019
 
 1. [](#bugfix)
     * Escaping `#` in `jQuery` selection for click event
