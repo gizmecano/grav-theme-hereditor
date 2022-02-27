@@ -62,7 +62,7 @@
     * Move deferred javascript assets
 
 # v1.3.1-alpha
-## 11-02-2020
+## 05-03-2019
 
 1. [](#bugfix)
     * Escaping `#` in `jQuery` selection for click event
