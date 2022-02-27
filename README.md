@@ -100,14 +100,14 @@ Once this is done, the new theme should be available on the frontend. Keep in mi
 
 ## Configuration
 
-### Images
+### Website images
 
-Basically, the _Hereditor_ theme is arranged to use two images:
+Basically, the _Hereditor_ theme is arranged to use two images for the entire website:
 
-1. `logo`: used into default page and to link toward homepage (but also as basic shortcut icon): this is an image that represents the website (should not exceed a size close to 300px × 300px)
-2. `author.image`: set as illustration in the mini-bio: this is an image that represents the author (should not exceed a size close to 300px × 300px)
+1. `logo`: used into default page and to link toward the home page (but also as basic shortcut icon). This image aims to represent the website and should not exceed a size close to 300px × 300px.
+2. `author.image`: set as illustration in the mini-bio. This image aims to represent the author of an article and should not exceed a size close to 300px × 300px.
 
-These images have to be defined in your `/your/site/grav/user/config/site.yaml` file, such as:
+These two images have to be defined in your `/your/site/grav/user/config/site.yaml` file, such as:
 
 ```yaml
 logo: /user/images/logo.png
