@@ -17,6 +17,14 @@ The _Hereditor_ theme for [Grav](https://getgrav.org/) is a fork of the [_Mediat
 - Implementation of [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for icons fonts use
 - Integration of free and open source improved fonts (WOFF 2.0)
 
+### Supported page types
+
+The _Hereditor_ theme was mainly conceived to craft a simple blog and supports three distinct page types via templates:
+
+- **default**: a template used to display the default blog listing view
+- **post**: a full page for displaying a blog post
+- **page**: similar to the post template, but without any author information
+
 --------------------------------------------------------------------------------
 
 ## Installation
