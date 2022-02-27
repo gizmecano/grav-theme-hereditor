@@ -56,9 +56,9 @@
 
 1. [](#new)
     * Implement assets rendering using **Deferred Block** Twig extension
-1. [](#improved)
+2. [](#improved)
     * Fixed logo link to use home URL
-1. [](#bugfix)
+3. [](#bugfix)
     * Move deferred javascript assets
 
 # v1.3.1-alpha
@@ -72,7 +72,7 @@
 
 1. [](#improved)
     * Remove unneeded streams from Theme YAML
-1. [](#bugfix)
+2. [](#bugfix)
     * Fix setting the page language in the html tag
     * Fix pagination
 
@@ -81,7 +81,7 @@
 
 1. [](#improved)
     * Dropped an extraneous debug statement
-1. [](#bugfix)
+2. [](#bugfix)
     * Fixed RSS link
     * Fix tag links on a root domain site
 
@@ -100,7 +100,7 @@
 # v1.0.2
 ## 20-02-2015
 
-2. [](#improved)
+1. [](#improved)
     * Updated README
     * Fixed feed URL on homepage
     * Added demo link
