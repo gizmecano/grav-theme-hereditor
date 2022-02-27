@@ -6,6 +6,19 @@ The _Hereditor_ theme for [Grav](https://getgrav.org/) is a fork of the [_Mediat
 
 --------------------------------------------------------------------------------
 
+## Overview
+
+### Features
+
+- Minimal design
+- Responsive layout
+- Header images in posted articles
+- Support of _featured_ posted articles
+- Implementation of [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for icons fonts use
+- Integration of free and open source improved fonts (WOFF 2.0)
+
+--------------------------------------------------------------------------------
+
 ## Installation
 
 <!--Installing the _Hereditor_ theme can be done in one of two ways. Using the GPM (Grav Package Manager) installation method enables to quickly and easily install the theme with a simple terminal command, while the manual method enables to do so via a `zip` file.
