@@ -11,6 +11,6 @@ keywords: blog, grav-cms, grav-theme, modern-web, responsive-design, responsive-
 bugs: https://github.com/gizmecano/grav-theme-hereditor/issues
 license: MIT
 dependencies:
-  - { name: grav, version: ">=1.7.1" }
+  - { name: grav, version: ">=1.7.3" }
 form:
   validation: loose
