@@ -37,29 +37,6 @@
    These styles are present in the original theme but have not yet been implemented in working skeleton and could be properly reintroduced during future developments
    ========================================================================== */
 
-/* Elements
-   ========================================================================== */
-
-/*code,
-  pre {
-    font-size: 15px;
-    border: 1px solid rgb(var(--tint-whisper));
-    border-radius: 3px;
-    background-color: rgb(var(--tint-lavender));
-  }*/
-/*code {
-    padding: 1px 5px;
-  }*/
-/*pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-  }*/
-/*pre > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }*/
-
 /* Classes
    ========================================================================== */
 /*.post .post-content hr {
