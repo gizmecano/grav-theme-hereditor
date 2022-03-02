@@ -25,6 +25,10 @@ The _Hereditor_ theme was mainly conceived to craft a simple blog and supports t
 - **post**: a full page for displaying a blog post
 - **page**: similar to the post template, but without any author information
 
+### Embedded assets
+
+- [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal under MIT License) which aims to _render_ (`CSS`) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
+
 --------------------------------------------------------------------------------
 
 ## Installation
