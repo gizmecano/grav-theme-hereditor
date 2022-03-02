@@ -334,6 +334,7 @@
     color: rgb(var(--tint-dimgray));
   }
   .post .post-content blockquote p {
+    color: rgb(var(--tint-dimgray));
     letter-spacing: 0.01rem;
     font-weight: 400;
     font-style: italic;
