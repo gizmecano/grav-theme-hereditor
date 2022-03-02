@@ -39,21 +39,6 @@
 
 /* Classes
    ========================================================================== */
-/*.post .post-content blockquote {
-    margin: 0 0 30px;
-    margin-left: -26px;
-    border-left: 3px solid rgb(var(--tint-fern));
-    padding-left: 20px;
-  }*/
-/*.post .post-content blockquote p {
-    letter-spacing: 0.01rem;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 3px solid rgb(var(--tint-fern));
-    padding-left: 20px;
-    margin-left: -26px;
-    padding-bottom: 3px;
-  }*/
 /*.post .post-content ul,
   .post .post-content ol {
     padding: 0 0 30px;

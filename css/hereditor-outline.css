@@ -327,6 +327,17 @@
     color: rgb(var(--tint-nightrider));
     text-decoration: underline;
   }
+  .post .post-content blockquote {
+    margin: 12px 0 12px -24px;
+    border-left: 4px solid rgb(var(--tint-dimgray));
+    padding-left: 20px;
+    color: rgb(var(--tint-dimgray));
+  }
+.post .post-content blockquote p {
+    letter-spacing: 0.01rem;
+    font-weight: 400;
+    font-style: italic;
+  }
   .post .post-content figcaption {
     font-family: var(--font-sns);
     font-weight: 400;
