@@ -33,35 +33,6 @@
   }
 
 /* ==========================================================================
-   Hypothetical styles
-   These styles are present in the original theme but have not yet been implemented in working skeleton and could be properly reintroduced during future developments
-   ========================================================================== */
-
-/* Classes
-   ========================================================================== */
-/*.post .post-content ul,
-  .post .post-content ol {
-    padding: 0 0 30px;
-    margin: 0;
-  }*/
-/*.post .post-content li {
-    padding: 0;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 23px;
-    line-height: 30px;
-    margin-left: 30px;
-    margin-bottom: 12px;
-    padding-top: 2px;
-  }*/
-/*.post .post-content li p {
-      padding: 0 0 1.618rem;
-  }*/
-/*.post .post-content ol li {
-    list-style-type: decimal;
-  }*/
-
-/* ==========================================================================
    Deprecated styles
    These styles were present in the original theme but are no longer used by any of the templates
    ========================================================================== */

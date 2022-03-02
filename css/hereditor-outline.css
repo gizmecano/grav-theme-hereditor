@@ -333,7 +333,7 @@
     padding-left: 20px;
     color: rgb(var(--tint-dimgray));
   }
-.post .post-content blockquote p {
+  .post .post-content blockquote p {
     letter-spacing: 0.01rem;
     font-weight: 400;
     font-style: italic;
@@ -395,6 +395,22 @@
     margin: 24px auto;
     border-top: 1px solid rgb(var(--tint-dimgray));
   }
+
+  .post .post-content li {
+    padding: 0;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 24px;
+  }
+  .post .post-content ol,
+  .post .post-content ul {
+    padding: 0;
+    margin: 12px 0 12px 0;
+  }
+  .post .post-content ol li {
+    list-style-type: decimal;
+  }
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
@@ -406,6 +422,9 @@
   }
   .post .post-content p + p {
     padding-top: 1.125em;
+  }
+  .post .post-content ul li {
+    list-style-type: square;
   }
   .bottom-closer {
     width: 100%;
