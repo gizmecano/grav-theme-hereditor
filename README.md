@@ -14,7 +14,7 @@ The _Hereditor_ theme for [Grav](https://github.com/getgrav/grav) is a detached 
 - Responsive layout
 - Header images in posted articles
 - Support of _featured_ posted articles
-- Implementation of [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for icons fonts use
+- Implementation of [Font Awesome](https://github.com/FortAwesome/Font-Awesome) for icons fonts use
 - Integration of free and open source improved fonts (WOFF 2.0)
 
 ### Supported page types
@@ -24,6 +24,13 @@ The _Hereditor_ theme was mainly conceived to craft a simple blog and supports t
 - **default**: a template used to display the default blog listing view
 - **post**: a full page for displaying a blog post
 - **page**: similar to the post template, but without any author information
+
+### Embedded assets
+
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome/) (version 4.7.0, font file licensed under the SIL OFL 1.1 and `CSS` file licensed under the MIT License), is _a suite of_ (...) _pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy_
+- [Inter](https://github.com/rsms/inter) (version 3.19, © The Inter Project Authors, licensed under the SIL Open Font License 1.1), is _a variable font with several OpenType features_ which has been _crafted & designed for computer screens_ ("Inter" is trademark of Rasmus Andersson)
+- [Libertinus Fonts](https://github.com/alerque/libertinus) (version 7.040, © The Libertinus Project Authors, released under the terms of the Open Font License, version 1.1, with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts"), is a typeface project which includes _four main type families_ which were _originally forked from Linux Libertine_ (only four files for two weights --Regular and Bold-- in two styles --Regular, Italic-- of the Serif family are embedded in the theme)
+- [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal released under MIT License) _is a small `CSS` file_ which aims to _render_ (...) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
 
 --------------------------------------------------------------------------------
 
