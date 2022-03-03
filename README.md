@@ -27,6 +27,7 @@ The _Hereditor_ theme was mainly conceived to craft a simple blog and supports t
 
 ### Embedded assets
 
+- [Inter](https://github.com/rsms/inter) (version 3.19, © The Inter Project Authors released under OFL License), _a variable font with several OpenType features_ which has been _crafted & designed for computer screens_ ("Inter" is trademark of Rasmus Andersson)
 - [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal under MIT License) which aims to _render_ (`CSS`) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
 
 --------------------------------------------------------------------------------
