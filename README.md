@@ -27,10 +27,10 @@ The _Hereditor_ theme was mainly conceived to craft a simple blog and supports t
 
 ### Embedded assets
 
-- [Font Awesome](https://github.com/FortAwesome/Font-Awesome/) (version 4.7.0, font file licensed under the SIL OFL 1.1 and ``CSS`` file licensed under the MIT License), _a suite of_ (...) _pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy_
-- [Inter](https://github.com/rsms/inter) (version 3.19, © The Inter Project Authors released under OFL License), _a variable font with several OpenType features_ which has been _crafted & designed for computer screens_ ("Inter" is trademark of Rasmus Andersson)
-- [Libertinus Fonts](https://github.com/alerque/libertinus) (version 7.040, © The Libertinus Project Authors, with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts"), a typeface project which includes _four main type families_ which were _originally forked from Linux Libertine_ (only four files for two weights --Regular and Bold-- in two styles --Regular, Italic-- of the Serif family are embedded)
-- [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal under MIT License) which aims to _render_ (`CSS`) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome/) (version 4.7.0, font file licensed under the SIL OFL 1.1 and `CSS` file licensed under the MIT License), is _a suite of_ (...) _pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy_
+- [Inter](https://github.com/rsms/inter) (version 3.19, © The Inter Project Authors, licensed under the SIL Open Font License 1.1), is _a variable font with several OpenType features_ which has been _crafted & designed for computer screens_ ("Inter" is trademark of Rasmus Andersson)
+- [Libertinus Fonts](https://github.com/alerque/libertinus) (version 7.040, © The Libertinus Project Authors, released under the terms of the Open Font License, version 1.1, with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts"), is a typeface project which includes _four main type families_ which were _originally forked from Linux Libertine_ (only four files for two weights --Regular and Bold-- in two styles --Regular, Italic-- of the Serif family are embedded in the theme)
+- [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal released under MIT License) _is a small `CSS` file_ which aims to _render_ (...) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
 
 --------------------------------------------------------------------------------
 
