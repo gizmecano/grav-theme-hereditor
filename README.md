@@ -124,7 +124,7 @@ Note that any changes made to any of the files listed under this directory will 
 
 ### Theme activation
 
-To set _Hereditor_ as the default theme, the steps to follow are:
+To set _Hereditor_ theme as the default theme, the steps to follow are:
 
 - Navigate to `/your/site/grav/user/config`
 - Open the `system.yaml` file
@@ -192,9 +192,11 @@ In order to set social profiles features to be embedded in _Hereditor_ theme con
 2. `social.link`: the main URL of the plateform
 3. `social.user`: the specific user name on the plateform
 
+Below is an example for a Twitter account:
+
 ```yaml
 social:
-  - icon: networkname
+  - icon: twitter
     link: https://twitter.com/
     user: username
 ```
