@@ -122,6 +122,8 @@ Note that any changes made to any of the files listed under this directory will 
 
 ## Setup
 
+### Theme activation
+
 To set _Hereditor_ as the default theme, the steps to follow are:
 
 - Navigate to `/your/site/grav/user/config`
@@ -138,7 +140,7 @@ Once this is done, the new theme should be available on the frontend. Keep in mi
 
 --------------------------------------------------------------------------------
 
-## Configuration
+## Configuring images and links
 
 ### Website images
 
