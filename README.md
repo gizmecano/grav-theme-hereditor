@@ -69,11 +69,11 @@ Check out the [general Grav installation instructions](https://learn.getgrav.org
 
 It is possible to install just the theme as described below, but page content will need to fit the templates supported by _Hereditor_ theme. It is strongly advised to at least install the _Hereditor_ skeleton package as described above to see the structuration of the theme in action.
 
-## Installation
+## Installing the theme
 
 <!--Installing the _Hereditor_ theme can be done in one of two ways. Using the GPM (Grav Package Manager) installation method enables to quickly and easily install the theme with a simple terminal command, while the manual method enables to do so via a `zip` file.
 
-### GPM Installation
+### GPM installation
 
 The simplest way to install the theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through the system's Terminal (also called _the command line_). From the root of the Grav install type:
 
@@ -83,7 +83,7 @@ bin/gpm install hereditor
 
 This will install the _Hereditor_ theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/hereditor`.-->
 
-### Manual Installation
+### Manual installation
 
 To install the theme, just download the `zip` version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `hereditor`. These files can be found <!--either--> on [GitHub](https://github.com/gizmecano/grav-theme-hereditor/)<!-- or via [GetGrav.org](http://getgrav.org/downloads/themes)-->.
 
