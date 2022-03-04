@@ -89,13 +89,11 @@ To install the theme, just download the `zip` version of this repository and unz
 
 All the _Hereditor_ theme files should be into the folder `/your/site/grav/user/themes/hereditor`.
 
---------------------------------------------------------------------------------
-
-## Updating
+## Updating the theme
 
 As development for the _Hereditor_ theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. <!--Updating _Hereditor_ is easy, and can be done through Grav's GPM system, as well as manually.-->
 
-<!--### GPM Update
+<!--### GPM update
 
 The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). Navigate to the root directory of the Grav install using the system's Terminal (also called _command line_) and type the following:
 
@@ -105,7 +103,7 @@ bin/gpm update hereditor
 
 This command will check the Grav install to see if the _Hereditor_ theme is due for an update. If a newer release is found, it will be asked whether or not proceed to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.-->
 
-### Manual Update
+### Manual update
 
 Manually updating _Hereditor_ is pretty simple:
 
