@@ -6,6 +6,10 @@
 
 The _Hereditor_ theme for [Grav](https://github.com/getgrav/grav) is a detached fork of the [_Mediator_ theme](https://github.com/getgrav/grav-theme-mediator) developed by [Grav Team and contributors](https://github.com/getgrav/grav-theme-mediator/graphs/contributors), which was a port of the [_Mediator_ theme](https://github.com/dirkfabisch/mediator) for [Jekyll](https://github.com/jekyll/jekyll) designed by [Dirk Fabisch](https://twitter.com/dirkfabisch), which in turn was inspired by the [_Readium_ theme](https://github.com/starburst1977/readium) for [Ghost](https://github.com/TryGhost/Ghost) elaborated by [Sven Read](https://twitter.com/starburst1977).
 
+## Downloads
+
+You can download the _Hereditor_ theme individually on [its own repository](https://github.com/gizmecano/grav-theme-hereditor) but it might be better to download the full [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site).
+
 --------------------------------------------------------------------------------
 
 ## Overview
