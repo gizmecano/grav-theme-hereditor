@@ -14,6 +14,10 @@ You can download the _Hereditor_ theme individually on [its own repository](http
 
 You can find out more info about customizing a Grav theme (as well as basic usage documentation on the official [Grav Documentation](https://learn.getgrav.org/)) and check the full source code on [GitHub](https://github.com/getgrav/grav).
 
+## License
+
+The _Hereditor_ theme is free and open source software, distributed under the [MIT License](/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
+
 --------------------------------------------------------------------------------
 
 ## Overview
@@ -154,9 +158,3 @@ social:
     link: https://twitter.com/
     user: username
 ```
-
---------------------------------------------------------------------------------
-
-## License
-
-The _Hereditor_ theme is free and open source software, distributed under the [MIT License](/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
