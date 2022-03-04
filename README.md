@@ -10,6 +10,10 @@ The _Hereditor_ theme for [Grav](https://github.com/getgrav/grav) is a detached 
 
 You can download the _Hereditor_ theme individually on [its own repository](https://github.com/gizmecano/grav-theme-hereditor) but it might be better to download the full [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site).
 
+## References
+
+You can find out more info about customizing a Grav theme (as well as basic usage documentation on the official [Grav Documentation](https://learn.getgrav.org/)) and check the full source code on [GitHub](https://github.com/getgrav/grav).
+
 --------------------------------------------------------------------------------
 
 ## Overview
