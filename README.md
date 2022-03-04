@@ -138,7 +138,26 @@ bin/grav clear-cache
 
 Once this is done, the new theme should be available on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `hereditor` folder.
 
---------------------------------------------------------------------------------
+### Site parameters
+
+In case _Hereditor_ theme is activated on a fresh Grav install, some parameters in the `user/config/site.yaml` file have to be populated:
+
+1. `title`: name of your site
+2. `description`: description of your site
+3. `author.name`: name site owner
+4. `author.email`: mail address of the site owner
+5. `author.bio`: short one sentence biography
+
+The file should look a bit like this:
+
+```yaml
+title: Website name
+description: A short description for the purpose of the website
+author:
+  name: Author Name
+  email: username@domain@tdl
+  bio: A short description of the author of the website
+```
 
 ## Configuring images and links
 
