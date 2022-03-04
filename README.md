@@ -57,6 +57,18 @@ Additional pictures used to craft the _Hereditor_ skeleton package belong to the
 
 --------------------------------------------------------------------------------
 
+## Using the skeleton
+
+The simplest way to install _Hereditor_ theme is to download and install the _Hereditor_ skeleton package:
+
+1. Download [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site)
+2. Unzip the package into your web root folder.
+3. Point your browser at the folder.
+
+Check out the [general Grav installation instructions](https://learn.getgrav.org/basics/installation) for more details on this process.
+
+It is possible to install just the theme as described below, but page content will need to fit the templates supported by _Hereditor_ theme. It is strongly advised to at least install the _Hereditor_ skeleton package as described above to see the structuration of the theme in action.
+
 ## Installation
 
 <!--Installing the _Hereditor_ theme can be done in one of two ways. Using the GPM (Grav Package Manager) installation method enables to quickly and easily install the theme with a simple terminal command, while the manual method enables to do so via a `zip` file.
