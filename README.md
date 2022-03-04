@@ -46,6 +46,15 @@ The _Hereditor_ theme was mainly conceived to craft a simple blog and supports t
 - [Libertinus Fonts](https://github.com/alerque/libertinus) (version 7.040, © The Libertinus Project Authors, released under the terms of the Open Font License, version 1.1, with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts"), is a typeface project which includes _four main type families_ which were _originally forked from Linux Libertine_ (only four files for two weights --Regular and Bold-- in two styles --Regular, Italic-- of the Serif family are embedded in the theme)
 - [normalize.css](https://github.com/necolas/normalize.css) (version 8.0.1, © Nicolas Gallagher and Jonathan Neal released under MIT License) _is a small `CSS` file_ which aims to _render_ (...) _elements more consistently_ (...) _with modern standards_ (and) _precisely targets only the styles that need normalizing_
 
+### Additional pictures
+
+Additional pictures used to craft the _Hereditor_ skeleton package belong to their original authors according to the [Unsplash licence](https://unsplash.com/license). The list below provides precise attributions:
+
+- [Photo](https://unsplash.com/photos/JazIGJ8_iw4) by [Bence Boros](https://unsplash.com/@benceboros)
+- [Photo](https://unsplash.com/photos/lUO-BjCiZEA) by [Dario Veronesi](https://unsplash.com/@dariovero_)
+- [Photo](https://unsplash.com/photos/tYCXnplTqyQ) by [Cassiane Boff](https://unsplash.com/@cassiboff)
+- [Photo](https://unsplash.com/photos/upGZ5p92SHU) by [Melanie van Leeuwen](https://unsplash.com/@strompictures)
+
 --------------------------------------------------------------------------------
 
 ## Installation
