@@ -623,3 +623,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+
+/* Elements with specific classes
+   ========================================================================== */
+
+   main.content div.featured {
+    padding: 16px;
+    margin-bottom: 32px;
+    background-color: rgb(var(--tint-snowdrift));
+  }

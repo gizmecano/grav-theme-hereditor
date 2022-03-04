@@ -6,9 +6,6 @@
 /* Classes
    ========================================================================== */
 
-  .container .featured {
-    padding-bottom: 40px;
-  }
   .post .bottom-teaser .isLeft a {
     color: rgb(var(--tint-black));
     text-decoration: underline;
