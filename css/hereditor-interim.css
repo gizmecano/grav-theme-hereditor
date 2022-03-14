@@ -1,21 +1,4 @@
 /* ==========================================================================
-   Temporary styles
-   These styles are present in the original theme and have to be revamped or improved during future developments
-   ========================================================================== */
-
-/* Classes
-   ========================================================================== */
-
-  .post .bottom-teaser .isLeft a {
-    color: rgb(var(--tint-black));
-    text-decoration: underline;
-  }
-  .post .bottom-teaser .isLeft a:hover {
-    color: rgb(var(--tint-nightrider));
-    text-decoration: underline;
-  }
-
-/* ==========================================================================
    Deprecated styles
    These styles were present in the original theme but are no longer used by any of the templates
    ========================================================================== */
