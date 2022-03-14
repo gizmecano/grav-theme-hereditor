@@ -1,38 +1,4 @@
 /* ==========================================================================
-   Temporary styles
-   These styles are present in the original theme and have to be revamped or improved during future developments
-   ========================================================================== */
-
-/* Classes
-   ========================================================================== */
-
-  .container .featured {
-    padding-bottom: 40px;
-  }
-  .post .article-image .post-meta-text a {
-    color: rgba(var(--tint-white), 0.75);
-  }
-  .post .article-image .post-meta-text a:hover {
-    color: rgb(var(--tint-white));
-  }
-  .post .article-image .fa-angle-down {
-    font-size: 64px;
-    margin: 64px auto 0;
-    color: rgba(var(--tint-white), 0.75);
-  }
-  .post .article-image .fa-angle-down:hover {
-    color: rgb(var(--tint-white));
-  }
-  .post .bottom-teaser .isLeft a {
-    color: rgb(var(--tint-black));
-    text-decoration: underline;
-  }
-  .post .bottom-teaser .isLeft a:hover {
-    color: rgb(var(--tint-nightrider));
-    text-decoration: underline;
-  }
-
-/* ==========================================================================
    Deprecated styles
    These styles were present in the original theme but are no longer used by any of the templates
    ========================================================================== */
