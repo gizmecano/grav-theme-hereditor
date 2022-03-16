@@ -516,7 +516,7 @@
   }
   .share a {
     text-decoration: none;
-    color: rgb(var(--tint-silver));
+    color: rgba(var(--tint-fore), 0.6);
     padding-left: 12px;
   }
   .share a:hover {
