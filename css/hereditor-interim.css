@@ -25,7 +25,7 @@
     display: inline;
   }*/
 /*.post .noarticleimage .post-meta-text {
-    color: rgb(var(--tint-bombay));
+    color: rgba(var(--tint-fore), 0.6);
     letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;

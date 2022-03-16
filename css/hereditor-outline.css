@@ -198,11 +198,11 @@
   }
   .content article .post-meta {
     font-size: 14px;
-    color: rgb(var(--tint-bombay));
+    color: rgba(var(--tint-fore), 0.6);
     line-height: 30px;
   }
   .content article .post-meta a {
-    color: rgb(var(--tint-bombay));
+    color: rgba(var(--tint-fore), 0.6);
     text-decoration: none;
   }
   .content article .post-meta a:hover {
@@ -616,7 +616,7 @@
     padding: 16px 0;
   }
   .index-headline span {
-    color: rgb(var(--tint-bombay));
+    color: rgba(var(--tint-fore), 0.6);
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
