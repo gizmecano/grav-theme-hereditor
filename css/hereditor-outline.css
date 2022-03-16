@@ -33,9 +33,9 @@
   }
   code, pre {
     font-size: 14px;
-    border: 1px solid rgb(var(--tint-whisper));
     border-radius: 5px;
-    background-color: rgb(var(--tint-lavender));
+    background-color: rgb(var(--tint-fore));
+    color: rgb(var(--tint-back));
   }
   code {
     padding: 1px 5px;
