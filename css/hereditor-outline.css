@@ -609,7 +609,7 @@
     line-height: 1.25rem;
   }
   .index-headline {
-    border-top: 1px solid rgb(var(--tint-snowdrift));
+    border-top: 1px solid rgba(var(--tint-fore), 0.4);
     margin: 0;
     padding: 16px 0;
   }
@@ -626,5 +626,5 @@
    main.content div.featured {
     padding: 16px;
     margin-bottom: 32px;
-    background-color: rgb(var(--tint-snowdrift));
+    background-color: rgba(var(--tint-fore), 0.4);
   }
