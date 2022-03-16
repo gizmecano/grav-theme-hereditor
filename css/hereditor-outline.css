@@ -167,7 +167,7 @@
   }
   .content article {
     padding: 40px 0;
-    border-bottom: 1px solid rgb(var(--tint-alabaster));
+    border-bottom: 1px solid rgba(var(--tint-fore), 0.4);
   }
   .content article:last-child {
     border-bottom: 0px;
