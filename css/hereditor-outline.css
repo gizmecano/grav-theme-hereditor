@@ -16,6 +16,7 @@
   :root {
     --tint-fore: 53, 56, 57;
     --tint-back: 242, 242, 240;
+    --tint-anchor: 87, 171, 90;
   }
 
 /* ==========================================================================
@@ -322,7 +323,7 @@
     text-decoration: underline;
   }
   .post .bottom-teaser a:hover {
-    color: rgb(var(--tint-fern));
+    color: rgb(var(--tint-anchor));
   }
   .post .noarticleimage .post-meta {
     font-family: var(--font-sns);
@@ -501,7 +502,7 @@
     text-decoration: none;
     cursor: pointer;
     height: 44px;
-    background: rgb(var(--tint-fern));
+    background: rgb(var(--tint-anchor));
     color: rgb(var(--tint-back));
     vertical-align: middle;
     box-sizing: border-box;
