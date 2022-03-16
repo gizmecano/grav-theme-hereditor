@@ -15,6 +15,7 @@
 
   :root {
     --tint-fore: 53, 56, 57;
+    --tint-back: 242, 242, 240;
   }
 
 /* ==========================================================================
@@ -113,8 +114,8 @@
     border-radius: 50%;
     z-index: 99;
     text-indent: -9999px;
-    border: 3px solid rgb(var(--tint-white));
-    background-color: rgb(var(--tint-white));
+    border: 3px solid rgb(var(--tint-back));
+    background-color: rgb(var(--tint-back));
     box-shadow: 0 1px 1px rgba(var(--tint-black), 0.3);
   }
   .blog-header .blog-title {
@@ -239,10 +240,10 @@
   .post .article-image .fa-angle-down {
     font-size: 64px;
     margin: 64px auto 0;
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
   }
   .post .article-image .fa-angle-down:hover {
-    color: rgba(var(--tint-white), 0.75);
+    color: rgba(var(--tint-back), 0.8);
   }
   .post .article-image .post-image-image {
     background-size: cover;
@@ -271,10 +272,10 @@
     }
   }
   .post .article-image .post-meta-text a {
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
   }
   .post .article-image .post-meta-text a:hover {
-    color: rgba(var(--tint-white), 0.75);
+    color: rgba(var(--tint-back), 0.8);
   }
   .post .article-image .post-title {
     font-weight: 700;
@@ -282,12 +283,12 @@
     letter-spacing: -0.04em;
     font-size: 50px;
     line-height: 1.1;
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
     margin-bottom: 16px;
     text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
   }
   .post .article-image .post-meta-text {
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
     letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;
@@ -480,7 +481,7 @@
     outline: 0;
     line-height: 50px;
     word-break: break-word;
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
     text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
   }
   .bottom-closer .inner .blog-description {
@@ -488,7 +489,7 @@
     padding: 0 32px;
     font-size: 18px;
     line-height: 1.5;
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
     text-align: center;
     font-weight: 400;
     text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
@@ -501,7 +502,7 @@
     cursor: pointer;
     height: 44px;
     background: rgb(var(--tint-fern));
-    color: rgb(var(--tint-white));
+    color: rgb(var(--tint-back));
     vertical-align: middle;
     box-sizing: border-box;
     border-radius: 999em;
