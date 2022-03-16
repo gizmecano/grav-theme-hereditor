@@ -145,7 +145,7 @@
   }
   .blog-header .custom-links a {
     text-decoration: none;
-    color: rgb(var(--tint-nobel));
+    color: rgba(var(--tint-fore), 0.6);
   }
   .blog-header .custom-links a:hover {
     color: rgb(var(--tint-fore));
@@ -212,7 +212,7 @@
     font-size: 12px;
   }
   .pagination a {
-    color: rgb(var(--tint-nobel));
+    color: rgba(var(--tint-fore), 0.6);
     text-decoration: none;
   }
   .pagination a:hover {
@@ -225,7 +225,7 @@
     max-width: 640px;
     font-size: 12px;
     text-align: center;
-    color: rgb(var(--tint-nobel));
+    color: rgba(var(--tint-fore), 0.6);
     line-height: 17.6px;
   }
   .post .article-image {
@@ -580,7 +580,7 @@
   }
   .post .bottom-teaser .isLeft p.bio,
   .post .bottom-teaser .isLeft p.published {
-    color: rgb(var(--tint-nobel));
+    color: rgba(var(--tint-fore), 0.6);
   }
   .post .bottom-teaser .isRight {
     float: right;
@@ -602,7 +602,6 @@
     text-align: left;
     font-size: 14px;
     line-height: 1.3;
-    color: rgb(var(--tint-nobel));
   }
   .post .bottom-teaser .isRight .site-footer .poweredby {
     display: block;
