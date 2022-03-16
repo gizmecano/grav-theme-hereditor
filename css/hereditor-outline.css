@@ -116,7 +116,7 @@
     text-indent: -9999px;
     border: 3px solid rgb(var(--tint-back));
     background-color: rgb(var(--tint-back));
-    box-shadow: 0 1px 1px rgba(var(--tint-black), 0.3);
+    box-shadow: 0 1px 1px rgba(var(--tint-fore), 0.4);
   }
   .blog-header .blog-title {
     margin: 0;
@@ -285,14 +285,14 @@
     line-height: 1.1;
     color: rgb(var(--tint-back));
     margin-bottom: 16px;
-    text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
+    text-shadow: 0px 1px 16px rgba(var(--tint-fore), 0.6), 0px 0px 1px rgba(var(--tint-fore), 0.6);
   }
   .post .article-image .post-meta-text {
     color: rgb(var(--tint-back));
     letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;
-    text-shadow: 0px 1px 4px rgba(var(--tint-black), 0.25), 0px 0px 1px rgba(var(--tint-black), 0.5);
+    text-shadow: 0px 1px 4px rgba(var(--tint-fore), 0.4), 0px 0px 1px rgba(var(--tint-fore), 0.6);
     font-size: 14px;
     overflow: hidden;
     font-family: var(--font-sns);
@@ -482,7 +482,7 @@
     line-height: 50px;
     word-break: break-word;
     color: rgb(var(--tint-back));
-    text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
+    text-shadow: 0px 1px 16px rgba(var(--tint-fore), 0.6), 0px 0px 1px rgba(var(--tint-fore), 0.6);
   }
   .bottom-closer .inner .blog-description {
     margin: 0 0 50px;
@@ -492,7 +492,7 @@
     color: rgb(var(--tint-back));
     text-align: center;
     font-weight: 400;
-    text-shadow: 0px 1px 16px rgba(var(--tint-black), 0.5), 0px 0px 1px rgba(var(--tint-black), 0.5);
+    text-shadow: 0px 1px 16px rgba(var(--tint-fore), 0.6), 0px 0px 1px rgba(var(--tint-fore), 0.6);
   }
   .bottom-closer .inner .btn {
     display: inline-block;
