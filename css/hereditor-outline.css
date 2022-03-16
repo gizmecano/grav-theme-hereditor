@@ -10,6 +10,13 @@
     --font-srf: 'Libertinus Serif', serif;  /* Serif font family */
   }
 
+/* Colors
+   ========================================================================== */
+
+  :root {
+    --tint-fore: 53, 56, 57;
+  }
+
 /* ==========================================================================
    Checked styles
    ========================================================================== */
@@ -120,7 +127,7 @@
     outline: 0;
     line-height: 50px;
     word-break: break-word;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .blog-header .blog-description {
     margin: 0 0 20px;
@@ -141,7 +148,7 @@
     color: rgb(var(--tint-nobel));
   }
   .blog-header .custom-links a:hover {
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .content {
     width: 100%;
@@ -177,7 +184,7 @@
   }
   .content article .post-title a {
     text-decoration: none;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .content article .post-title a:hover {
     text-decoration: none;
@@ -209,7 +216,7 @@
     text-decoration: none;
   }
   .pagination a:hover {
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .site-footer {
     margin: 0 auto;
@@ -311,7 +318,7 @@
     text-decoration: underline;
   }
   .post .bottom-teaser a {
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     text-decoration: underline;
   }
   .post .bottom-teaser a:hover {
@@ -327,16 +334,16 @@
     letter-spacing: -0.04em;
     font-size: 50px;
     line-height: 1.1;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     margin-bottom: 16px;
   }
   .post .post-content {
     width: 100%;
     font-family: var(--font-srf);
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .post .post-content a {
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     text-decoration: underline;
   }
   .post .post-content blockquote {
@@ -430,7 +437,7 @@
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     hyphens: auto;
   }
   .post .post-content p + p {
@@ -513,7 +520,7 @@
     padding-left: 12px;
   }
   .share a:hover {
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
   }
   .post .bottom-teaser {
     padding: 50px 0;
@@ -591,7 +598,7 @@
   .post .bottom-teaser .isRight .site-footer {
     margin: 0;
     padding: 0;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     text-align: left;
     font-size: 14px;
     line-height: 1.3;
@@ -600,7 +607,7 @@
   .post .bottom-teaser .isRight .site-footer .poweredby {
     display: block;
     padding-bottom: 18px;
-    color: rgb(var(--tint-nightrider));
+    color: rgb(var(--tint-fore));
     line-height: 1.25rem;
   }
   .index-headline {
