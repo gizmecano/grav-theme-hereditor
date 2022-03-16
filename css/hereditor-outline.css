@@ -141,7 +141,6 @@
   .blog-header .custom-links {
     margin: 0 0 50px;
     text-align: center;
-    color: rgb(var(--tint-verylightgrey));
   }
   .blog-header .custom-links a {
     text-decoration: none;
