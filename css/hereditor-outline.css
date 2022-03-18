@@ -209,15 +209,6 @@ a:active {
     color: rgba(var(--tint-fore), 0.6);
     line-height: 30px;
   }
-  .pagination {
-    font-size: 12px;
-  }
-  .pagination a {
-
-  }
-  .pagination a:hover {
-
-  }
   .site-footer {
     margin: 0 auto;
     padding: 48px 0;
