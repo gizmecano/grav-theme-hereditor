@@ -24,6 +24,7 @@
    ========================================================================== */
 
 a, a:link {
+  color:rgb(var(--tint-fore));
   text-decoration: underline solid;
 }
 
@@ -149,6 +150,7 @@ a, a:link {
     font-weight: 400;
   }
   .blog-header .custom-links {
+    color: rgba(var(--tint-fore), 0.6);
     margin: 0 0 50px;
     text-align: center;
   }
@@ -182,6 +184,7 @@ a, a:link {
     border-bottom: 0px;
   }
   .content article .post-title {
+    color: rgb(var(--tint-fore));
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
@@ -524,6 +527,7 @@ a, a:link {
     color: rgb(var(--tint-fore));
   }
   .post .bottom-teaser {
+    color: rgb(var(--tint-fore));
     padding: 50px 0;
     font-family: var(--font-sns);
   }
