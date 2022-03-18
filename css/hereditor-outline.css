@@ -153,10 +153,10 @@ a, a:link {
     text-align: center;
   }
   .blog-header .custom-links a {
-    color: rgba(var(--tint-fore), 0.6);
+
   }
   .blog-header .custom-links a:hover {
-    color: rgb(var(--tint-fore));
+
   }
   .content {
     width: 100%;
@@ -191,7 +191,7 @@ a, a:link {
     margin: 0 0;
   }
   .content article .post-title a {
-    color: rgb(var(--tint-fore));
+
   }
   .content article .post-title a:hover {
 
@@ -209,7 +209,7 @@ a, a:link {
     line-height: 30px;
   }
   .content article .post-meta a {
-    color: rgba(var(--tint-fore), 0.6);
+
   }
   .content article .post-meta a:hover {
 
@@ -218,10 +218,10 @@ a, a:link {
     font-size: 12px;
   }
   .pagination a {
-    color: rgba(var(--tint-fore), 0.6);
+
   }
   .pagination a:hover {
-    color: rgb(var(--tint-fore));
+
   }
   .site-footer {
     margin: 0 auto;
@@ -323,11 +323,10 @@ a, a:link {
 
   }
   .post .bottom-teaser a {
-    color: rgb(var(--tint-fore));
 
   }
   .post .bottom-teaser a:hover {
-    color: rgb(var(--tint-anchor));
+
   }
   .post .noarticleimage .post-meta {
     font-family: var(--font-sns);
@@ -348,7 +347,7 @@ a, a:link {
     color: rgb(var(--tint-fore));
   }
   .post .post-content a {
-    color: rgb(var(--tint-fore));
+
   }
   .post .post-content blockquote {
     margin: 12px 0 12px -24px;
