@@ -27,6 +27,12 @@ a, a:link {
   color:rgb(var(--tint-fore));
   text-decoration: underline solid;
 }
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: rgb(var(--tint-anchor));
+}
 
 /* ==========================================================================
    Checked styles
