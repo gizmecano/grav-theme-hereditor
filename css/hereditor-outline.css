@@ -20,6 +20,14 @@
   }
 
 /* ==========================================================================
+   Anchor links
+   ========================================================================== */
+
+a, a:link {
+  text-decoration: underline solid;
+}
+
+/* ==========================================================================
    Checked styles
    ========================================================================== */
 
@@ -145,7 +153,6 @@
     text-align: center;
   }
   .blog-header .custom-links a {
-    text-decoration: none;
     color: rgba(var(--tint-fore), 0.6);
   }
   .blog-header .custom-links a:hover {
@@ -184,11 +191,10 @@
     margin: 0 0;
   }
   .content article .post-title a {
-    text-decoration: none;
     color: rgb(var(--tint-fore));
   }
   .content article .post-title a:hover {
-    text-decoration: none;
+
   }
   .content article .post-excerpt {
     font-weight: 300;
@@ -204,17 +210,15 @@
   }
   .content article .post-meta a {
     color: rgba(var(--tint-fore), 0.6);
-    text-decoration: none;
   }
   .content article .post-meta a:hover {
-    text-decoration: underline;
+
   }
   .pagination {
     font-size: 12px;
   }
   .pagination a {
     color: rgba(var(--tint-fore), 0.6);
-    text-decoration: none;
   }
   .pagination a:hover {
     color: rgb(var(--tint-fore));
@@ -316,11 +320,11 @@
     margin-right: 1rem;
   }
   .post .article-image .topofpage {
-    text-decoration: underline;
+
   }
   .post .bottom-teaser a {
     color: rgb(var(--tint-fore));
-    text-decoration: underline;
+
   }
   .post .bottom-teaser a:hover {
     color: rgb(var(--tint-anchor));
@@ -345,7 +349,6 @@
   }
   .post .post-content a {
     color: rgb(var(--tint-fore));
-    text-decoration: underline;
   }
   .post .post-content blockquote {
     margin: 12px 0 12px -24px;
@@ -499,7 +502,6 @@
     display: inline-block;
     text-align: center;
     font-style: normal;
-    text-decoration: none;
     cursor: pointer;
     height: 44px;
     background: rgb(var(--tint-anchor));
@@ -516,7 +518,6 @@
     line-height: 20px;
   }
   .share a {
-    text-decoration: none;
     color: rgba(var(--tint-fore), 0.6);
     padding-left: 12px;
   }
