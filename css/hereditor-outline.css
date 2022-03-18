@@ -30,8 +30,11 @@ a, a:link {
 a:visited {
   color: inherit;
 }
-a:hover {
+a:hover, a:focus {
   color: rgb(var(--tint-anchor));
+}
+a:active {
+  color: rgba(var(--tint-anchor), 0.8);
 }
 
 /* ==========================================================================
