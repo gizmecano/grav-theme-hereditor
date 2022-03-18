@@ -37,6 +37,7 @@ a:active {
   color: rgba(var(--tint-anchor), 0.8);
 }
 
+
 /* ==========================================================================
    Checked styles
    ========================================================================== */
@@ -163,12 +164,6 @@ a:active {
     margin: 0 0 50px;
     text-align: center;
   }
-  .blog-header .custom-links a {
-
-  }
-  .blog-header .custom-links a:hover {
-
-  }
   .content {
     width: 100%;
     max-width: 640px;
@@ -202,12 +197,6 @@ a:active {
     line-height: 1.1;
     margin: 0 0;
   }
-  .content article .post-title a {
-
-  }
-  .content article .post-title a:hover {
-
-  }
   .content article .post-excerpt {
     font-weight: 300;
     font-style: italic;
@@ -219,12 +208,6 @@ a:active {
     font-size: 14px;
     color: rgba(var(--tint-fore), 0.6);
     line-height: 30px;
-  }
-  .content article .post-meta a {
-
-  }
-  .content article .post-meta a:hover {
-
   }
   .pagination {
     font-size: 12px;
@@ -331,15 +314,6 @@ a:active {
     display: inline;
     margin-right: 1rem;
   }
-  .post .article-image .topofpage {
-
-  }
-  .post .bottom-teaser a {
-
-  }
-  .post .bottom-teaser a:hover {
-
-  }
   .post .noarticleimage .post-meta {
     font-family: var(--font-sns);
     padding-top: 60px;
@@ -357,9 +331,6 @@ a:active {
     width: 100%;
     font-family: var(--font-srf);
     color: rgb(var(--tint-fore));
-  }
-  .post .post-content a {
-
   }
   .post .post-content blockquote {
     margin: 12px 0 12px -24px;
