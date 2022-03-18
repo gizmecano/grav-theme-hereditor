@@ -16,8 +16,27 @@
   :root {
     --tint-fore: 53, 56, 57;
     --tint-back: 242, 242, 240;
-    --tint-anchor: 87, 171, 90;
+    --tint-anchor: 160, 17, 31;
   }
+
+/* ==========================================================================
+   Anchor links
+   ========================================================================== */
+
+a, a:link {
+  color:rgb(var(--tint-fore));
+  text-decoration: underline solid;
+}
+a:visited {
+  color: inherit;
+}
+a:hover, a:focus {
+  color: rgb(var(--tint-anchor));
+}
+a:active {
+  color: rgba(var(--tint-anchor), 0.8);
+}
+
 
 /* ==========================================================================
    Checked styles
@@ -141,15 +160,9 @@
     font-weight: 400;
   }
   .blog-header .custom-links {
+    color: rgba(var(--tint-fore), 0.6);
     margin: 0 0 50px;
     text-align: center;
-  }
-  .blog-header .custom-links a {
-    text-decoration: none;
-    color: rgba(var(--tint-fore), 0.6);
-  }
-  .blog-header .custom-links a:hover {
-    color: rgb(var(--tint-fore));
   }
   .content {
     width: 100%;
@@ -175,6 +188,7 @@
     border-bottom: 0px;
   }
   .content article .post-title {
+    color: rgb(var(--tint-fore));
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
@@ -182,13 +196,6 @@
     font-size: 28px;
     line-height: 1.1;
     margin: 0 0;
-  }
-  .content article .post-title a {
-    text-decoration: none;
-    color: rgb(var(--tint-fore));
-  }
-  .content article .post-title a:hover {
-    text-decoration: none;
   }
   .content article .post-excerpt {
     font-weight: 300;
@@ -201,23 +208,6 @@
     font-size: 14px;
     color: rgba(var(--tint-fore), 0.6);
     line-height: 30px;
-  }
-  .content article .post-meta a {
-    color: rgba(var(--tint-fore), 0.6);
-    text-decoration: none;
-  }
-  .content article .post-meta a:hover {
-    text-decoration: underline;
-  }
-  .pagination {
-    font-size: 12px;
-  }
-  .pagination a {
-    color: rgba(var(--tint-fore), 0.6);
-    text-decoration: none;
-  }
-  .pagination a:hover {
-    color: rgb(var(--tint-fore));
   }
   .site-footer {
     margin: 0 auto;
@@ -315,16 +305,6 @@
     display: inline;
     margin-right: 1rem;
   }
-  .post .article-image .topofpage {
-    text-decoration: underline;
-  }
-  .post .bottom-teaser a {
-    color: rgb(var(--tint-fore));
-    text-decoration: underline;
-  }
-  .post .bottom-teaser a:hover {
-    color: rgb(var(--tint-anchor));
-  }
   .post .noarticleimage .post-meta {
     font-family: var(--font-sns);
     padding-top: 60px;
@@ -342,10 +322,6 @@
     width: 100%;
     font-family: var(--font-srf);
     color: rgb(var(--tint-fore));
-  }
-  .post .post-content a {
-    color: rgb(var(--tint-fore));
-    text-decoration: underline;
   }
   .post .post-content blockquote {
     margin: 12px 0 12px -24px;
@@ -499,7 +475,6 @@
     display: inline-block;
     text-align: center;
     font-style: normal;
-    text-decoration: none;
     cursor: pointer;
     height: 44px;
     background: rgb(var(--tint-anchor));
@@ -516,7 +491,6 @@
     line-height: 20px;
   }
   .share a {
-    text-decoration: none;
     color: rgba(var(--tint-fore), 0.6);
     padding-left: 12px;
   }
@@ -524,6 +498,7 @@
     color: rgb(var(--tint-fore));
   }
   .post .bottom-teaser {
+    color: rgb(var(--tint-fore));
     padding: 50px 0;
     font-family: var(--font-sns);
   }
