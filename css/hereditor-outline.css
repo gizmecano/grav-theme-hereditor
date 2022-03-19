@@ -160,9 +160,16 @@ a:active {
     font-weight: 400;
   }
   .blog-header .custom-links {
+    line-height: 1.5rem;
     color: rgba(var(--tint-fore), 0.6);
-    margin: 0 0 50px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     text-align: center;
+  }
+  .blog-header .custom-links .fa {
+    font-size: 1.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .content {
     width: 100%;
