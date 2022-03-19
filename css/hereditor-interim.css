@@ -10,32 +10,6 @@
     margin: 0 0 50px;
   }*/
 
-/*.post .noarticleimage .author-image {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    margin-right: 8px;
-    margin-bottom: -10px;
-    float: left;
-    background-size: cover;
-    border-radius: 100%;
-    text-indent: -9999px;
-  }*/
-/*.post .noarticleimage .author-name {
-    display: inline;
-  }*/
-/*.post .noarticleimage .post-meta-text {
-    color: rgba(var(--tint-fore), 0.6);
-    letter-spacing: -0.02em;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    overflow: hidden;
-    font-family: var(--font-sns);
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }*/
-
 /* ==========================================================================
    Unused styles
    These styles were present in the original theme but seem not to be used by any of the templates
