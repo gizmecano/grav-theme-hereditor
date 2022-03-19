@@ -485,18 +485,6 @@ a:active {
     line-height: 44px;
     padding: 0 18px;
   }
-  .share {
-    text-align: right;
-    padding: 20px 0 0;
-    line-height: 20px;
-  }
-  .share a {
-    color: rgba(var(--tint-fore), 0.6);
-    padding-left: 12px;
-  }
-  .share a:hover {
-    color: rgb(var(--tint-fore));
-  }
   .post .bottom-teaser {
     color: rgb(var(--tint-fore));
     padding: 50px 0;

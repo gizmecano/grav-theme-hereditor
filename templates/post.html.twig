@@ -28,17 +28,7 @@
         </section>
 
         {% if page.template == 'post' %}
-        <footer class="post-footer">
-          <section class="share">
-            {% for social in site.social %}
-              {% if social.user != null %}
-                <a class="icon-{{ social.icon }}" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&amp;via={{ social.user }}&amp;url={{ page.canonical() }}" >
-                  <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
-                </a>
-              {% endif %}
-            {% endfor %}
-          </section>
-        </footer>
+
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.WRITTENBY' | t }}</span></h5>
