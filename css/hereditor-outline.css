@@ -83,14 +83,22 @@ a:active {
     overflow: hidden;
     z-index: 99;
   }
+  .logo-readium .logo,
+  .blog-header .blog-logo,
+  .post .bottom-teaser .isLeft .author-image {
+    position: absolute;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(var(--tint-back));
+    background-color: rgb(var(--tint-back));
+    box-shadow: 0 1px 1px rgba(var(--tint-fore), 0.4);
+  }
   .logo-readium .logo {
     display: block;
-    position: absolute;
     top: 8px;
     left: 8px;
     width: 48px;
     height: 48px;
-    background-size: cover;
     background-repeat: no-repeat;
   }
   .teaserimage {
@@ -126,17 +134,11 @@ a:active {
   .blog-header .blog-logo {
     width: 120px;
     height: 120px;
-    position: absolute;
     top: -60px;
     right: 50%;
     margin-right: -60px;
-    background-size: cover;
-    border-radius: 50%;
     z-index: 99;
     text-indent: -9999px;
-    border: 3px solid rgb(var(--tint-back));
-    background-color: rgb(var(--tint-back));
-    box-shadow: 0 1px 1px rgba(var(--tint-fore), 0.4);
   }
   .blog-header .blog-title {
     margin: 0;
@@ -542,8 +544,6 @@ a:active {
     width: 80px;
     height: 80px;
     float: left;
-    background-size: cover;
-    border-radius: 100%;
     text-indent: -9999px;
   }
   .post .bottom-teaser .isLeft h4 {
