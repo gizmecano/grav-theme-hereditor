@@ -231,9 +231,10 @@ a:active {
     width: 100%;
     max-width: 640px;
     font-size: 12px;
+    font-weight: 600;
     text-align: center;
     color: rgba(var(--tint-fore), 0.6);
-    line-height: 17.6px;
+    line-height: 17px;
   }
   .post .article-image {
     position: absolute;
