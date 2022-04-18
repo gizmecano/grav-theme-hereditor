@@ -83,14 +83,22 @@ a:active {
     overflow: hidden;
     z-index: 99;
   }
+  .logo-readium .logo,
+  .blog-header .blog-logo,
+  .post .bottom-teaser .isLeft .author-image {
+    position: absolute;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(var(--tint-back));
+    background-color: rgb(var(--tint-back));
+    box-shadow: 0 1px 1px rgba(var(--tint-fore), 0.4);
+  }
   .logo-readium .logo {
     display: block;
-    position: absolute;
     top: 8px;
     left: 8px;
     width: 48px;
     height: 48px;
-    background-size: cover;
     background-repeat: no-repeat;
   }
   .teaserimage {
@@ -126,17 +134,11 @@ a:active {
   .blog-header .blog-logo {
     width: 120px;
     height: 120px;
-    position: absolute;
     top: -60px;
     right: 50%;
     margin-right: -60px;
-    background-size: cover;
-    border-radius: 50%;
     z-index: 99;
     text-indent: -9999px;
-    border: 3px solid rgb(var(--tint-back));
-    background-color: rgb(var(--tint-back));
-    box-shadow: 0 1px 1px rgba(var(--tint-fore), 0.4);
   }
   .blog-header .blog-title {
     margin: 0;
@@ -160,9 +162,16 @@ a:active {
     font-weight: 400;
   }
   .blog-header .custom-links {
+    line-height: 1.5rem;
     color: rgba(var(--tint-fore), 0.6);
-    margin: 0 0 50px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     text-align: center;
+  }
+  .blog-header .custom-links .fa {
+    font-size: 1.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .content {
     width: 100%;
@@ -180,9 +189,13 @@ a:active {
     display: table;
     clear: both;
   }
+
   .content article {
     padding: 40px 0;
     border-bottom: 1px solid rgba(var(--tint-fore), 0.4);
+  }
+  .content article:first-child {
+    padding-top: 24px;
   }
   .content article:last-child {
     border-bottom: 0px;
@@ -198,16 +211,21 @@ a:active {
     margin: 0 0;
   }
   .content article .post-excerpt {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 1.3em;
     color: rgba(var(--tint-fore), 0.8);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.012em;
+    line-height: 22px;
   }
   .content article .post-meta {
     font-size: 14px;
     color: rgba(var(--tint-fore), 0.6);
     line-height: 30px;
+  }
+  .content div.featured {
+    padding: 16px;
+    margin-bottom: 64px;
+    background-color: rgba(var(--tint-fore), 0.2);
   }
   .site-footer {
     margin: 0 auto;
@@ -215,9 +233,10 @@ a:active {
     width: 100%;
     max-width: 640px;
     font-size: 12px;
+    font-weight: 600;
     text-align: center;
     color: rgba(var(--tint-fore), 0.6);
-    line-height: 17.6px;
+    line-height: 17px;
   }
   .post .article-image {
     position: absolute;
@@ -525,8 +544,6 @@ a:active {
     width: 80px;
     height: 80px;
     float: left;
-    background-size: cover;
-    border-radius: 100%;
     text-indent: -9999px;
   }
   .post .bottom-teaser .isLeft h4 {
@@ -539,19 +556,16 @@ a:active {
   }
   .post .bottom-teaser .isLeft p {
     font-size: 14px;
-    line-height: 1.25rem;
-    font-weight: 400;
+    line-height: 20px;
+    font-weight: 600;
     padding: 0;
     margin: 0;
     padding-left: 100px;
   }
   .post .bottom-teaser .isLeft p.bio {
-    font-style: italic;
     margin-top: .5em;
-  }
-  .post .bottom-teaser .isLeft p.bio,
-  .post .bottom-teaser .isLeft p.published {
-    color: rgba(var(--tint-fore), 0.6);
+    font-style: italic;
+    color: rgba(var(--tint-fore), 0.8)
   }
   .post .bottom-teaser .isRight {
     float: right;
@@ -587,16 +601,8 @@ a:active {
   }
   .index-headline span {
     color: rgba(var(--tint-fore), 0.6);
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-/* Elements with specific classes
-   ========================================================================== */
-
-   main.content div.featured {
-    padding: 16px;
-    margin-bottom: 32px;
-    background-color: rgba(var(--tint-fore), 0.4);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.009em;
+    font-variant-caps: small-caps;
   }
