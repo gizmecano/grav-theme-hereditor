@@ -209,11 +209,11 @@ a:active {
     margin: 0 0;
   }
   .content article .post-excerpt {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 1.3em;
     color: rgba(var(--tint-fore), 0.8);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.012em;
+    line-height: 22px;
   }
   .content article .post-meta {
     font-size: 14px;
