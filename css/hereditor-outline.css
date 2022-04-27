@@ -251,7 +251,8 @@ pre > code {
 .content article .post-meta {
   font-size: 14px;
   color: rgba(var(--tint-fore), 0.6);
-  line-height: 30px;
+  letter-spacing: -0.006em;
+  line-height: 1.4em;
 }
 
 .content div.featured {
@@ -372,7 +373,6 @@ pre > code {
 .post .article-image .author-name,
 .post .noarticleimage .author-name {
   display: inline;
-  margin-right: 1rem;
 }
 
 .post .noarticleimage .post-meta {
