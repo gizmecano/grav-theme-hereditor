@@ -159,6 +159,14 @@ author:
   bio: A short description of the author of the website
 ```
 
+### Custom styles for plugins
+
+The _Hereditor_ theme includes custom styles for specific plugins ([Markdown Notices](https://github.com/getgrav/grav-plugin-markdown-notices), [Pagination](https://github.com/getgrav/grav-plugin-pagination)). To be properly loaded, the _Use built in CSS_ option has to be set to `false` (using the admin panel or configuring the `YAML` file in the `users/config/plugins/` folder):
+
+```yaml
+built_in_css: false
+```
+
 ## Configuring images and links
 
 ### Website images
