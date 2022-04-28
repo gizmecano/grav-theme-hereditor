@@ -18,7 +18,7 @@
 :root {
   --tint-fore: 53, 56, 57;
   --tint-back: 242, 242, 240;
-  --tint-anchor: 160, 17, 31;
+  --tint-link: 216, 98, 91;
 }
 
 /* ==========================================================================
@@ -37,11 +37,11 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: rgb(var(--tint-anchor));
+  color: rgb(var(--tint-link));
 }
 
 a:active {
-  color: rgba(var(--tint-anchor), 0.8);
+  color: rgba(var(--tint-link), 0.8);
 }
 
 
@@ -573,7 +573,7 @@ pre > code {
   font-style: normal;
   cursor: pointer;
   height: 44px;
-  background: rgb(var(--tint-anchor));
+  background: rgb(var(--tint-link));
   color: rgb(var(--tint-back));
   vertical-align: middle;
   box-sizing: border-box;
@@ -691,4 +691,68 @@ pre > code {
   font-weight: 700;
   letter-spacing: 0.009em;
   font-variant-caps: small-caps;
+}
+
+/* ==========================================================================
+   Styles for specific plugins
+   ========================================================================== */
+
+/* Markdown Notices (https://github.com/getgrav/grav-plugin-markdown-notices/)
+   ========================================================================== */
+
+.post .post-content .notices {
+  margin: 1em 0;
+  padding: .5em .5em .5em 1.5em;
+}
+
+.post .post-content .notices p {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.notices.blue {
+  --ntc-blue: 42, 82, 190;
+  border-left: 0.5rem solid rgb(var(--ntc-blue));
+  background: rgba(var(--ntc-blue), 0.125);
+}
+
+.notices.green {
+  --ntc-green: 154, 185, 115;
+  border-left: 0.5rem solid rgb(var(--ntc-green));
+  background: rgba(var(--ntc-green), 0.125);
+}
+
+.notices.red {
+  --ntc-red: 178, 34, 34;
+  border-left: 0.5rem solid rgb(var(--ntc-red));
+  background: rgba(var(--ntc-red), 0.125);
+}
+
+.notices.yellow {
+  --ntc-yellow: 255, 191, 0;
+  border-left: 0.5rem solid rgb(var(--ntc-yellow));
+  background: rgba(var(--ntc-yellow), 0.125);
+}
+
+/* Pagination (https://github.com/getgrav/grav-plugin-pagination/)
+   ========================================================================== */
+
+.pagination {
+  color: rgba(var(--tint-fore), 0.6);
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 1.4em;
+  list-style: none;
+  margin: 2.8em 0 1.4em;
+  padding: 0;
+  text-align: center;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 0 1em;
 }
