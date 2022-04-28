@@ -697,6 +697,46 @@ pre > code {
    Styles for specific plugins
    ========================================================================== */
 
+/* Markdown Notices (https://github.com/getgrav/grav-plugin-markdown-notices/)
+   ========================================================================== */
+
+.post .post-content .notices {
+  margin: 1em 0;
+  padding: .5em .5em .5em 1.5em;
+}
+
+.post .post-content .notices p {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.notices.blue {
+  --ntc-blue: 42, 82, 190;
+  border-left: 0.5rem solid rgb(var(--ntc-blue));
+  background: rgba(var(--ntc-blue), 0.125);
+}
+
+.notices.green {
+  --ntc-green: 154, 185, 115;
+  border-left: 0.5rem solid rgb(var(--ntc-green));
+  background: rgba(var(--ntc-green), 0.125);
+}
+
+.notices.red {
+  --ntc-red: 178, 34, 34;
+  border-left: 0.5rem solid rgb(var(--ntc-red));
+  background: rgba(var(--ntc-red), 0.125);
+}
+
+.notices.yellow {
+  --ntc-yellow: 255, 191, 0;
+  border-left: 0.5rem solid rgb(var(--ntc-yellow));
+  background: rgba(var(--ntc-yellow), 0.125);
+}
+
 /* Pagination (https://github.com/getgrav/grav-plugin-pagination/)
    ========================================================================== */
 
