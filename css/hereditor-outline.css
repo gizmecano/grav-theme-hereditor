@@ -18,7 +18,7 @@
 :root {
   --tint-fore: 53, 56, 57;
   --tint-back: 242, 242, 240;
-  --tint-anchor: 160, 17, 31;
+  --tint-link: 216, 98, 91;
 }
 
 /* ==========================================================================
@@ -37,11 +37,11 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: rgb(var(--tint-anchor));
+  color: rgb(var(--tint-link));
 }
 
 a:active {
-  color: rgba(var(--tint-anchor), 0.8);
+  color: rgba(var(--tint-link), 0.8);
 }
 
 
@@ -573,7 +573,7 @@ pre > code {
   font-style: normal;
   cursor: pointer;
   height: 44px;
-  background: rgb(var(--tint-anchor));
+  background: rgb(var(--tint-link));
   color: rgb(var(--tint-back));
   vertical-align: middle;
   box-sizing: border-box;
