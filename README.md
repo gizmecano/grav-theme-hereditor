@@ -1,5 +1,7 @@
 # Hereditor Theme
 
+![Hereditor Preview](screenshot.jpg)
+
 ## About
 
 ### Background
