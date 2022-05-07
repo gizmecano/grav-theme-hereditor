@@ -13,6 +13,14 @@
   },
   "files.trimTrailingWhitespace": true,
   "git.enableCommitSigning": true,
+  "markdownlint.config": {
+    "default": true,
+    "line-length": false,
+    "MD038": false
+  },
+  "markdownlint.ignore": [
+    "CHANGELOG.md"
+  ],
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
