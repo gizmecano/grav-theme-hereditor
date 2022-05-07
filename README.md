@@ -33,9 +33,10 @@ The _Hereditor_ theme is free and open source software, distributed under the [M
 
 ### Supported page types
 
-The _Hereditor_ theme was mainly conceived to craft a simple blog and supports three distinct page types via templates:
+The _Hereditor_ theme was mainly conceived to craft a simple blog and supports four distinct page types via templates:
 
 - **default**: a template used to display the default blog listing view
+- **error**: a very simple template to display an error page
 - **post**: a full page for displaying a blog post
 - **page**: similar to the post template, but without any author information
 
