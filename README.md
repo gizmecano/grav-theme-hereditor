@@ -119,7 +119,7 @@ Manually updating the _Hereditor_ theme is pretty simple:
 bin/grav clear-cache
 ```
 
-Note that any changes made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a ``YAML`` settings file placed in `user/config/themes`) will remain intact.
+Note that any changes made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a `YAML` settings file placed in `user/config/themes`) will remain intact.
 
 --------------------------------------------------------------------------------
 
