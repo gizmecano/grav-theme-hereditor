@@ -1,3 +1,22 @@
+# v2.0.0-beta
+## DD-MM-YYYY
+
+1. [](#new)
+    * Addition of custom styles for plugins
+2. [](#improved)
+    * Append `raw` filter on `content` statement
+    * Check and adjust hypothetical styles
+    * Revise assets embedding
+    * Check and adjust temporary styles
+    * Monitor rendering of `twig` templates
+    * Check and adjust deprecated styles
+    * Balance colors shades
+    * Check and adjust unused styles
+    * Renovate styles for anchor links
+    * Improve various custom `CSS` rules
+    * Revise metadata display
+    * Revamp `text-shadow` properties
+
 # v2.0.0-alpha
 ## 09-08-2021
 
