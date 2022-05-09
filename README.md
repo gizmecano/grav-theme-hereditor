@@ -62,15 +62,15 @@ Additional pictures used to craft the _Hereditor_ skeleton package belong to the
 
 ## Using the skeleton
 
-The simplest way to install _Hereditor_ theme is to download and install the _Hereditor_ skeleton package:
+The simplest way to install the _Hereditor_ theme is to download and install the _Hereditor_ skeleton package:
 
-1. Download [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site)
+1. Download the [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site)
 2. Unzip the package into your web root folder.
 3. Point your browser at the folder.
 
 Check out the [general Grav installation instructions](https://learn.getgrav.org/basics/installation) for more details on this process.
 
-It is possible to install just the theme as described below, but page content will need to fit the templates supported by _Hereditor_ theme. It is strongly advised to at least install the _Hereditor_ skeleton package as described above to see the structuration of the theme in action.
+It is possible to install just the theme as described below, but page content will need to fit the templates supported  the _Hereditor_ theme. It is strongly advised to at least install the _Hereditor_ skeleton package as described above to see the structuration of the theme in action.
 
 ## Installing the theme
 
@@ -94,7 +94,7 @@ All the _Hereditor_ theme files should be into the folder `/your/site/grav/user/
 
 ## Updating the theme
 
-As development for the _Hereditor_ theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. <!--Updating _Hereditor_ is easy, and can be done through Grav's GPM system, as well as manually.-->
+As development for the _Hereditor_ theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. <!--Updating the _Hereditor_ theme is easy, and can be done through Grav's GPM system, as well as manually.-->
 
 <!--### GPM update
 
@@ -108,7 +108,7 @@ This command will check the Grav install to see if the _Hereditor_ theme is due 
 
 ### Manual update
 
-Manually updating _Hereditor_ is pretty simple:
+Manually updating the _Hereditor_ theme is pretty simple:
 
 - Delete the `your/site/user/themes/hereditor` directory
 - Download the new version of the _Hereditor_ theme from <!--either--> [GitHub](https://github.com/gizmecano/grav-theme-hereditor/)<!-- or [GetGrav.org](https://getgrav.org/downloads/themes)-->
@@ -127,7 +127,7 @@ Note that any changes made to any of the files listed under this directory will 
 
 ### Theme activation
 
-To set _Hereditor_ theme as the default theme, the steps to follow are:
+To set the _Hereditor_ theme as the default theme, the steps to follow are:
 
 - Navigate to `/your/site/grav/user/config`
 - Open the `system.yaml` file
@@ -143,7 +143,7 @@ Once this is done, the new theme should be available on the frontend. Keep in mi
 
 ### Site parameters
 
-In case _Hereditor_ theme is activated on a fresh Grav install, some parameters in the `user/config/site.yaml` file have to be populated:
+In case the _Hereditor_ theme is activated on a fresh Grav install, some parameters in the `user/config/site.yaml` file have to be populated:
 
 1. `title`: name of your site
 2. `description`: description of your site
@@ -197,7 +197,7 @@ image: header-image.jpg
 
 ### Social links
 
-In order to set social profiles features to be embedded in _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
+In order to set social profiles features to be embedded in the _Hereditor_ theme configuration, add the following to your `/your/site/grav/user/config/site.yaml` file:
 
 1. `social.icon`: name of the social platform
 2. `social.link`: the main URL of the plateform
