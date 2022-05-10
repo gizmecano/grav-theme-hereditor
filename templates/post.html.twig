@@ -24,37 +24,20 @@
         {% endif %}
         <section class="post-content">
           <a name="topofpage"></a>
-          {{ content }}
+          {{ content|raw }}
         </section>
 
         {% if page.template == 'post' %}
-        <footer class="post-footer">
-          <section class="share">
-            {% for social in site.social %}
-              {% if social.user != null %}
-                <a class="icon-{{ social.icon }}" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&amp;via={{ social.user }}&amp;url={{ page.canonical() }}" >
-                  <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
-                </a>
-              {% endif %}
-            {% endfor %}
-          </section>
-        </footer>
+
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.WRITTENBY' | t }}</span></h5>
             <section class="author">
-              <div class="author-image" style="background-image: url({{ base_url }}{{site.author.image}})">Blog Logo</div>
+              <div class="author-image" style="background-image: url({{ base_url }}{{site.author.image}})">{{ 'THEME_HEREDITOR.IMAGE' | t }}</div>
               <h4>{{ site.author.name }}</h4>
               <p class="bio">{{site.author.bio}}</p>
               <hr/>
-              <p class="published">
-                <i class="fa fa-pencil-square" aria-hidden="true"></i> {{ 'THEME_HEREDITOR.PUBLISHEDON' | t }}
-                <time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time>
-              </p>
-              <p>
-                <i class="fa fa-rss-square" aria-hidden="true"></i>
-                <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
-              </p>
+              <p><i class="fa fa-rss-square" aria-hidden="true"></i>&#160;<a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a></p>
             </section>
           </div>
           {# {{/post}} #}
@@ -62,15 +45,15 @@
             <h5 class="index-headline featured"><span>{{ 'THEME_HEREDITOR.MADE' | t }}</span></h5>
             <footer class="site-footer">
               <section class="poweredby">
-              {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+              {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i>&#160;<a href="http://getgrav.org">Grav</a>
               <br/>
-              {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+              {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i>&#160;<a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
               </section>
               <div class="inner">
                 <section class="copyright">
                 {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
                 <a href="/about">{{ site.author.name }}</a>
-                <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+                <i class="fa fa-copyright" aria-hidden="true"></i>&#160;{{ "now"|date('Y') }}
                 <br/>
                 {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
                 </section>

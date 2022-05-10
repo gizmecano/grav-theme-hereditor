@@ -1,17 +1,32 @@
 {
-  "editor.minimap.enabled": false,
+  "css.format.newlineBetweenRules": true,
+  "css.format.newlineBetweenSelectors": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
   "editor.renderWhitespace": "all",
   "editor.rulers": [
     80
   ],
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
+  "files.exclude": {
+    "**/*.ini": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "git.enableCommitSigning": true,
+  "markdownlint.config": {
+    "default": true,
+    "line-length": false,
+    "MD038": false
+  },
+  "markdownlint.ignore": [
+    "CHANGELOG.md"
+  ],
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
-  },
-  "files.exclude": {
-    "**/desktop.ini": true
-  },
-  "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace": false
+  }
 }

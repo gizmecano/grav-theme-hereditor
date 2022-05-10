@@ -6,8 +6,3 @@
 
 # Development data
 .grav/
-
-# Binary asset files
-assets/fontawesome/
-assets/inter/
-assets/libertinus/

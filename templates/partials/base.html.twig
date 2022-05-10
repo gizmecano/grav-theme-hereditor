@@ -29,15 +29,12 @@
   <meta itemprop="image" content="{{ base_url_absolute }}{{ page.media[page.header.image].url }}">
   <link rel="canonical" href="{{ page.canonical() }}">
   <link rel="shortcut icon" href="{{ base_url_relative }}{{ site.logo }}">
-  <link rel="stylesheet" href="{{ theme_url }}/assets/font-awesome.css">
-  <link rel="stylesheet" href="{{ theme_url }}/assets/normalize.css">
-  <link rel="stylesheet" href="{{ theme_url }}/css/hereditor-palette.css">
+  <link rel="stylesheet" href="{{ theme_url }}/assets/fontawesome/fontawesome.css">
+  <link rel="stylesheet" href="{{ theme_url }}/assets/normalize/normalize.css">
   <link rel="stylesheet" href="{{ theme_url }}/css/hereditor-outline.css">
-  <link rel="stylesheet" href="{{ theme_url }}/css/hereditor-interim.css">
-
     {% block stylesheets %}
-        {% do assets.addCss('theme://assets/inter.css') %}
-        {% do assets.addCss('theme://assets/libertinus.css') %}
+        {% do assets.addCss('theme://assets/inter/inter.css') %}
+        {% do assets.addCss('theme://assets/libertinus/libertinus.css') %}
         {# {% do assets.addCss('theme://css/print.css') %} #}
     {% endblock %}
 
@@ -67,7 +64,7 @@
     {% block content %}
     <div class="page-content">
         <div class="wrapper">
-            {{ content }}
+            {{ content|raw }}
         </div>
     </div>
     {% endblock %}
@@ -77,20 +74,20 @@
     {% block footer %}
     <!-- footer start -->
     <footer class="site-footer">
-      <i class="fa fa-rss-square" aria-hidden="true"></i>
+      <i class="fa fa-rss-square" aria-hidden="true"></i>&#160;
       <a class="subscribe" href="home.rss">{{ 'THEME_HEREDITOR.FEED' | t }}</a>
         <div class="inner">
              <section class="copyright">
              {{ 'THEME_HEREDITOR.COPYRIGHT' | t }}
              <a href="/about">{{ site.author.name }}</a>
-             <i class="fa fa-copyright" aria-hidden="true"></i> {{ "now"|date('Y') }}
+             <i class="fa fa-copyright" aria-hidden="true"></i>&#160;{{ "now"|date('Y') }}
              <br/>
              {{ 'THEME_HEREDITOR.RIGHTRESERVED' | t }}
              </section>
              <section class="poweredby">
-             {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i> <a href="http://getgrav.org">Grav</a>
+             {{ 'THEME_HEREDITOR.MADE' | t }} <i class="fa fa-grav" aria-hidden="true"></i>&#160;<a href="http://getgrav.org">Grav</a>
              <br/>
-             {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i> <a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
+             {{ 'THEME_HEREDITOR.THEME' | t }} <i class="fa fa-{{ grav.theme.icon }}" aria-hidden="true"></i>&#160;<a href="{{ grav.theme.homepage }}">{{ grav.theme.name }}</a>
              </section>
         </div>
     </footer>
