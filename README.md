@@ -158,7 +158,7 @@ title: Website name
 description: A short description for the purpose of the website
 author:
   name: Author Name
-  email: username@domain@tdl
+  email: username@domain.tdl
   bio: A short description of the author of the website
 ```
 
