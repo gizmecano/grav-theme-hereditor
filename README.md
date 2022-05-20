@@ -10,6 +10,10 @@ The _Hereditor_ theme for [Grav](https://github.com/getgrav/grav) is a detached 
 
 The wording _Hereditor_ comes from a [Latin verb](https://en.wiktionary.org/wiki/heredito#Latin) relating to heirs what seems quite logical for a project that has so many ancestors!
 
+### Theme preview
+
+In order to preview this theme in action more effectively than a simple screenshot, a [demonstration implementation](https://htg.gizmecano.net/) (based on the [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site)) is available online.
+
 ### Downloads
 
 You can download the _Hereditor_ theme individually on [its own repository](https://github.com/gizmecano/grav-theme-hereditor) but it might be better to download the full [_Hereditor_ skeleton](https://github.com/gizmecano/grav-skeleton-hereditor-site).
