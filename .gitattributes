@@ -11,13 +11,13 @@
 *.json        text
 *.map         text
 *.md          text
+*.svg         text
 *.yaml        text
 *.yml         text
 
 # Declare files that will always have CRLF line endings on checkout
 *.css   text eol=crlf
 *.php   text eol=crlf
-*.scss  text eol=crlf
 *.twig  text eol=crlf
 
 # Denote files that are truly binary and should not be modified
@@ -27,6 +27,16 @@
 *.ttf   binary
 *.woff  binary
 *.woff2 binary
+
+# Define generated files and folders
+js/min/*              linguist-generated
+
+# Define vendored files and folders
+assets/fontawesome/*  linguist-vendored
+assets/inter/*        linguist-vendored
+assets/libertinus/*   linguist-vendored
+assets/normalize/*    linguist-vendored
+js/jquery.fitvids.js  linguist-vendored
 
 # Define files that are not added to archive files
 .editorconfig  export-ignore
