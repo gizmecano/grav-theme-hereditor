@@ -1,3 +1,11 @@
+# v2.0.0-beta.2
+## 20-07-2022
+
+1. [](#improved)
+    * Improve version control settings
+2. [](#bugfix)
+    * Fix release date for previous version
+
 # v2.0.0-beta
 ## 10-05-2022
 
