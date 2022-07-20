@@ -28,6 +28,16 @@
 *.woff  binary
 *.woff2 binary
 
+# Define generated files and folders
+js/min/*              linguist-generated
+
+# Define vendored files and folders
+assets/fontawesome/*  linguist-vendored
+assets/inter/*        linguist-vendored
+assets/libertinus/*   linguist-vendored
+assets/normalize/*    linguist-vendored
+js/jquery.fitvids.js  linguist-vendored
+
 # Define files that are not added to archive files
 .editorconfig  export-ignore
 .gitattributes export-ignore
