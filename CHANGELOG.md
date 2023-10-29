@@ -1,3 +1,11 @@
+# v2.0.0
+## 29-10-2023
+
+1. [](#improved)
+    * Adjust documentation file
+    * Adjust various styles for featured block
+    * Sweep deprecated file (`javascripts.html.twig`) and folders (`blueprints` and `scss`)
+
 # v2.0.0-beta.2
 ## 20-07-2022
 
