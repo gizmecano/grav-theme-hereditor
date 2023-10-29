@@ -258,7 +258,18 @@ pre > code {
 .content div.featured {
   padding: 16px;
   margin-bottom: 64px;
-  background-color: rgba(var(--tint-fore), 0.2);
+  background-color: rgba(var(--tint-link), 0.5);
+}
+
+.content div.featured a,
+.content div.featured a:link {
+  color: rgb(var(--tint-fore));
+}
+
+.content div.featured a:hover,
+.content div.featured a:focus,
+.content div.featured a:active {
+  color: rgba(var(--tint-fore), 0.8);
 }
 
 .site-footer {
@@ -694,6 +705,10 @@ pre > code {
   font-weight: 700;
   letter-spacing: 0.009em;
   font-variant-caps: small-caps;
+}
+
+.index-headline.featured span {
+  color: rgb(var(--tint-link));
 }
 
 /* ==========================================================================
